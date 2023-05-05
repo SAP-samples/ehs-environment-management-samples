@@ -1,0 +1,31 @@
+MIGRATION_SRC(k/*),LANGUAGE(k/*),CLASS_TEXT(*)
+Scope 1,EN,undefined - GHG
+Scope 2,EN,undefined - GHG
+Scope 2 Location-based,EN,undefined - GHG
+Scope 2 Market-based,EN,undefined - GHG
+Scope 3,EN,undefined - GHG
+Offsets,EN,undefined - GHG
+Biogenic,EN,undefined - GHG
+S1 Stationary Combustion,EN,Stationary Combustion - GHG Scope 1
+S1 Mobile Combustion,EN,Mobile Combustion - GHG Scope 1
+S1 Fugitive Emissions,EN,Fugitive Emissions - GHG Scope 1
+S1 Process Emissions,EN,Process Emissions - GHG Scope 1
+S2 Purchased Electricity,EN,Purchased Electricity - GHG Scope 2
+S2 Purchased Heating,EN,Purchased Heating - GHG Scope 2
+S2 Purchased Stream,EN,Purchased Stream - GHG Scope 2
+S2 Purchased Cooling,EN,Purchased Cooling - GHG Scope 2
+S3.1 Purchased Goods And Services,EN,Purchased Goods And Services - GHG Scope 3
+S3.2 Capital Goods,EN,Capital Goods - GHG Scope 3
+S3.3 Fuel And Energy Related Activities,EN,Fuel And Energy Related Activities - GHG Scope 3
+S3.4 Upstream Transportation And Distribution,EN,Upstream Transportation And Distribution - GHG Scope 3
+S3.5 Waste Generated In Operations,EN,Waste Generated In Operations - GHG Scope 3
+S3.6 Business Travel,EN,Business Travel - GHG Scope 3
+S3.7 Employee Commuting,EN,Employee Commuting - GHG Scope 3
+S3.8 Upstream Leased Assets,EN,Upstream Leased Assets - GHG Scope 3
+S3.9 Downstream Transportation And Distribution,EN,Downstream Transportation And Distribution - GHG Scope 3
+S3.10 Processing Of Sold Products,EN,Processing Of Sold Products - GHG Scope 3
+S3.11 Use Of Sold Products,EN,Use Of Sold Products - GHG Scope 3
+S3.12 End Of Life Treatment Of Sold Products,EN,End Of Life Treatment Of Sold Products - GHG Scope 3
+S3.13 Downstream Leased Assets,EN,Downstream Leased Assets - GHG Scope 3
+S3.14 Franchises,EN,Franchises - GHG Scope 3
+S3.15 Investments,EN,Investments - GHG Scope 3
