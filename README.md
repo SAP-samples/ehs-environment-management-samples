@@ -8,13 +8,13 @@ This project is currently in construction.
 
 ## Requirements
 
-You need a license of [SAP Environment, Health and Safety Management](https://www.sap.com/germany/products/scm/ehs-management-health-safety.html) for Environment Management, for one of this SAP S/4HANA products:
+You need a license of [SAP Environment, Health and Safety Management](https://www.sap.com/germany/products/scm/ehs-management-health-safety.html) for Environment Management, for one of this SAP products:
 
 * [SAP S/4HANA Cloud, public edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD?locale=en-US)
 * [SAP S/4HANA Cloud, private edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD_PE?locale=en-US)
 * [SAP S/4HANA](https://help.sap.com/docs/SAP_S4HANA_CLOUD?locale=en-US)
 
-It is recommended to use the latest available version.
+Which of the examples work may vary. It is recommended to use the latest available version.
 
 ## Content
 
@@ -24,11 +24,16 @@ It is recommended to use the latest available version.
 
 SAP recommends standard data classifiers for the management of greenhouse gas emissions. You can find CSV files for import into your SAP EHS system in this directory:
 
-```
-greenhouse-gas-management/classifiers
-```
+&rarr; [greenhouse-gas-management/classifiers](./greenhouse-gas-management/classifiers/)
 
-Please use the "EHS - Data Classifier" migration object to import the classifiers using the Migration Cockpit.
+Please use the "EHS - Data Classifier" migration object to import the classifiers using the Migration Cockpit for SAP S/4HANA
+
+## Mappings
+
+You can find mappings for domain values for the use with the Migration Cockpit for SAP S/4HANA to reduce the mapping effort and to show which values are allowed for a field.
+
+&rarr; [mappings](./mappings/)
+
 
 ## Contributing
 
@@ -56,6 +61,8 @@ No known issues.
 
 ## How to Obtain Support
 
+You can create an issue if you have problems with the provided content or looking for missing examples.
+
 ## To-Do (Upcoming changes)
 
-You can watch this GitHub repository to stay informed on updated.
+You can watch this GitHub repository to stay informed on updates.
