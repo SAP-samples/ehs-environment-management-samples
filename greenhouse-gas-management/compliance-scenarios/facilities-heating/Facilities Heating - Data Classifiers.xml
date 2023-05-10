@@ -7,18 +7,17 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Title>EHS_ADEF</Title>
+  <Title>EHS_AGGRCL</Title>
   <Author>KLINGERU</Author>
   <Keywords>Standard Scope</Keywords>
-  <LastAuthor>Microsoft Office User</LastAuthor>
+  <LastAuthor>KLINGERU</LastAuthor>
   <Created>2023-05-05T00:00:00Z</Created>
-  <LastSaved>2023-05-10T13:03:24Z</LastSaved>
   <Company>KLINGERU</Company>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <APPLICATION dt:dt="string">SLO</APPLICATION>
-  <OBJECT_NAME dt:dt="string">EHS - Location aggregation</OBJECT_NAME>
+  <OBJECT_NAME dt:dt="string">EHS - Data classifier</OBJECT_NAME>
   <VERSION dt:dt="string">S4CORE 108  - Standard Scope - 10.05.2023</VERSION>
   <SYSTEM dt:dt="string">QM7 / 910</SYSTEM>
   <LANGUAGE dt:dt="string">E</LANGUAGE>
@@ -32,11 +31,11 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>16440</WindowHeight>
-  <WindowWidth>27240</WindowWidth>
-  <WindowTopX>1280</WindowTopX>
-  <WindowTopY>2040</WindowTopY>
-  <ActiveSheet>2</ActiveSheet>
+  <WindowHeight>15440</WindowHeight>
+  <WindowWidth>26440</WindowWidth>
+  <WindowTopX>4860</WindowTopX>
+  <WindowTopY>4160</WindowTopY>
+  <ActiveSheet>3</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -49,20 +48,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133227472">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
-   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="m105553133227492">
+  <Style ss:ID="m105553133366032">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -75,7 +61,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133227512">
+  <Style ss:ID="m105553133366052">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -88,7 +74,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133226284">
+  <Style ss:ID="m105553133217388">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -101,7 +87,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133226304">
+  <Style ss:ID="m105553133217408">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -114,7 +100,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133226324">
+  <Style ss:ID="m105553133217428">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -122,51 +108,12 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
-   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553133226344">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
-   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="m105553133227740">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
-   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="m105553133227760">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
-   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="m105553133229612">
+  <Style ss:ID="m105553133356316">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -285,7 +232,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s107">
+  <Style ss:ID="s101">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -775,7 +722,7 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Field List" ss:Protected="1">
-  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="21" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="12" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
@@ -789,7 +736,7 @@
     ss:Width="56" ss:Span="1"/>
    <Column ss:Index="11" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell ss:MergeAcross="8"><Data ss:Type="String">Field List for Migration Object: EHS - Location aggregation</Data><NamedCell
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Field List for Migration Object: EHS - Data classifier</Data><NamedCell
       ss:Name="Fields"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
@@ -810,127 +757,43 @@
     <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553133226284"><Data
-      ss:Type="String">Header (mandatory)</Data></Cell>
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553133217388"><Data
+      ss:Type="String">Header Data (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="10" ss:StyleID="m105553133226304"/>
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="m105553133217408"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Aggregation ID</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_HEADER</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553133226324"><Data
-      ss:Type="String">Subject</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Chemical/Physical Property (ext. ID)</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">CHEM_PHYS_PROPERTY_KEY</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Listed Substance ID</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">LISTED_SUBSTANCE_KEY</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">EHS Material ID</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">MATERIAL_KEY</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="6" ss:StyleID="m105553133226344"><Data
-      ss:Type="String">Location Aggregation Data</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Data Period</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Classifier Data</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Classifier</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">30    </Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">USAGE_PERIOD</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Function</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">FUNCTION</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Unit of Measurement</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">UNIT</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Location (ext. ID)</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">LOCATION_ID</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Location Aggregation Name</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">132   </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">NAME</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_HEADER</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">CLASSIFIER</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Aggregation Mode</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">EXEC_OPTION</Data></Cell>
-   </Row>
-   <Row ss:Index="18" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553133227472"><Data
-      ss:Type="String">Description</Data></Cell>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553133217428"><Data
+      ss:Type="String">Classifier Text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553133227492"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553133227512"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Aggregation ID</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553133366032"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553133366052"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -939,18 +802,18 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">LANGUAGE</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Description Data</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Classifier Text Data</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">unrestricted</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">S_DESCRIPTION</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CLASS_TEXT</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -989,13 +852,13 @@
    <AllowSizeRows/>
   </WorksheetOptions>
  </Worksheet>
- <Worksheet ss:Name="Header" ss:Protected="1">
+ <Worksheet ss:Name="Header Data" ss:Protected="1">
   <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="9" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
    ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s99" ss:Width="120" ss:Span="10"/>
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="1"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location aggregation</Data></Cell>
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Data classifier</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell ss:MergeAcross="14"><Data ss:Type="String">Version S4CORE 108  - Standard Scope - 10.05.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
@@ -1004,72 +867,28 @@
     <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
-    <Cell ss:StyleID="s62"><Data ss:Type="String">S_ROOT</Data></Cell>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
-    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_HEADER</Data></Cell>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Hidden="1">
     <Cell><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
-    <Cell><Data ss:Type="String">CHEM_PHYS_PROPERTY_KEY</Data></Cell>
-    <Cell><Data ss:Type="String">LISTED_SUBSTANCE_KEY</Data></Cell>
-    <Cell><Data ss:Type="String">MATERIAL_KEY</Data></Cell>
-    <Cell><Data ss:Type="String">USAGE_PERIOD</Data></Cell>
-    <Cell><Data ss:Type="String">FUNCTION</Data></Cell>
-    <Cell><Data ss:Type="String">UNIT</Data></Cell>
-    <Cell><Data ss:Type="String">LOCATION_ID</Data></Cell>
-    <Cell><Data ss:Type="String">NAME</Data></Cell>
     <Cell><Data ss:Type="String">CLASSIFIER</Data></Cell>
-    <Cell><Data ss:Type="String">EXEC_OPTION</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Hidden="1">
     <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;132;0;C;132;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
-    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;30;0;C;30;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s100"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553133227740"><Data ss:Type="String">Subject</Data></Cell>
-    <Cell ss:MergeAcross="6" ss:StyleID="m105553133227760"><Data ss:Type="String">Location Aggregation Data</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Classifier Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Location Aggregation ID*&#10;&#10;Specifies the Migration Source Key of a location aggregation. The Migration Source Key is a user-defined unique identifier of every location aggregation. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Chemical/Physical Property (ext. ID)&#10;&#10;Specifies the Migration External Key of the chemical/physical property.&#10;Only one field from the Subject Group should be filled.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Listed Substance ID&#10;&#10;Specifies the Migration External Key of the listed substance.&#10;&#10;Only one from the following Source Subjects must be selected:&#10;Chemical/Physical Property, Listed Substance ID, or&#10;Material ID.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">EHS Material ID&#10;&#10;Specifies the Migration External Key of the material.&#10;Only one field from the Subject Group should be filled.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Data Period*&#10;&#10;Specifies the usage periodicity of the location aggregation activities.&#10;&#10;Set a usage period by selecting from the following available options:&#10;• Daily: 001&#10;• Monthly: 002&#10;• Quarterly: 007&#10;• Half-yearly: 008&#10;• Yearly: 003&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Function*&#10;&#10;Specifies the function of the location aggregation.&#10;&#10;Set a function by selecting from the following available options:&#10;• Arithmetic Sum (SUM)&#10;• Arithmetic Average (AVG)&#10;• Maximum Value (MAX)&#10;• Minimum Value (MIN)&#10;• Count of Elements (CNT)&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Unit of Measurement*&#10;&#10;Specifies the Unit of Measurement that is used for the location aggregation.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Location (ext. ID)*&#10;&#10;Specifies the Migration Source Key of the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Location Aggregation Name*&#10;&#10;Specifies the name of the location aggregation.&#10;&#10;Type: Text&#10;Length: 132</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Data Classifier (ext. ID)&#10;&#10;Specifies the name of the data classifier.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Aggregation Mode&#10;&#10;Specifies the execution mode of the location aggregation.&#10;&#10;Set an execution mode by selecting from the following available options:&#10;• Automatic: 01&#10;• Automatic for Complete Data Only: 02&#10;• Manual: 03&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Data Classifier (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Classifier*&#10;&#10;Specifies the name of the data classifier.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PREFIX__Boston_FH Fuel Oil</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Distillate Fuel Oil No. 2</Data></Cell>
-    <Cell ss:Index="5"><Data ss:Type="String">Monthly</Data></Cell>
-    <Cell><Data ss:Type="String">Arithmetic Sum (SUM)</Data></Cell>
-    <Cell><Data ss:Type="String">Gallon</Data></Cell>
-    <Cell><Data ss:Type="String">Boston</Data></Cell>
     <Cell><Data ss:Type="String">Facilities Heating - Fuel Oil</Data></Cell>
     <Cell><Data ss:Type="String">Facilities Heating - Fuel Oil</Data></Cell>
-    <Cell><Data ss:Type="String">Automatic for Complete Data Only</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -1086,7 +905,6 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
@@ -1106,8 +924,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>14</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -1116,13 +933,13 @@
    <AllowSizeRows/>
   </WorksheetOptions>
  </Worksheet>
- <Worksheet ss:Name="Description" ss:Protected="1">
-  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+ <Worksheet ss:Name="Classifier Text" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="9" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s99" ss:Width="120" ss:Span="2"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location aggregation</Data></Cell>
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Data classifier</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell ss:MergeAcross="14"><Data ss:Type="String">Version S4CORE 108  - Standard Scope - 10.05.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
@@ -1131,14 +948,14 @@
     <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
-    <Cell ss:StyleID="s62"><Data ss:Type="String">S_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_TEXT</Data></Cell>
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Hidden="1">
     <Cell><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
     <Cell><Data ss:Type="String">LANGUAGE</Data></Cell>
-    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CLASS_TEXT</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Hidden="1">
     <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
@@ -1146,13 +963,18 @@
     <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553133229612"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:StyleID="s100"><Data ss:Type="String">Description Data</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553133356316"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Classifier Text Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Location Aggregation ID*&#10;&#10;Specifies the Migration Source Key of a location aggregation. The Migration Source Key is a user-defined unique identifier of every location aggregation. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Language*&#10;&#10;Indicates the language of a translation entered for the location aggregation.&#10;&#10;Enter the language code according to ISO 639, for example &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Description*&#10;&#10;Specifies a description of the location aggregation or details related to it.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Data Classifier (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Language*&#10;&#10;Indicates the language of a translation entered for the text.&#10;&#10;Enter the language code according to ISO 639, for example &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Text*&#10;&#10;Specifies the description of the data classifier in the defined language.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Facilities Heating - Fuel Oil</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Aggregating Fuel Oil for Facilities Heating</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -1169,6 +991,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>56</TabColorIndex>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
@@ -1188,7 +1011,6 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>7</ActiveRow>
      <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>

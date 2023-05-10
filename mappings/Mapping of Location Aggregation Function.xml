@@ -7,17 +7,17 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Title>MAP_MDEF_CATEG</Title>
+  <Title>MAP_ADEF_FUNC</Title>
   <Author>KLINGERU</Author>
-  <Keywords>MAP_MDEF_CATEG</Keywords>
+  <Keywords>MAP_ADEF_FUNC</Keywords>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2023-05-10T00:00:00Z</Created>
-  <LastSaved>2023-05-10T12:35:04Z</LastSaved>
+  <LastSaved>2023-05-10T13:17:05Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Object_Id dt:dt="string"></Object_Id>
-  <Object_name dt:dt="string">MAP_MDEF_CATEG</Object_name>
+  <Object_name dt:dt="string">MAP_ADEF_FUNC</Object_name>
   <Version dt:dt="string"></Version>
   <System dt:dt="string">QM7</System>
   <Language dt:dt="string">E</Language>
@@ -31,10 +31,10 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>15940</WindowHeight>
-  <WindowWidth>26840</WindowWidth>
-  <WindowTopX>4460</WindowTopX>
-  <WindowTopY>3660</WindowTopY>
+  <WindowHeight>14940</WindowHeight>
+  <WindowWidth>26040</WindowWidth>
+  <WindowTopX>5260</WindowTopX>
+  <WindowTopY>4660</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -163,7 +163,7 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">Decimals</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">IV_MDEF_CATEGORY</Data></Cell>
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">IV_ADEF_FUNC</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Import Parameter</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
@@ -172,7 +172,7 @@
     <Cell ss:StyleID="s70"><Data ss:Type="String"></Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">EV_MDEF_CATEGORY</Data></Cell>
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">EV_ADEF_FUNC</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Export Parameter</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
@@ -218,12 +218,12 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Data" ss:Protected="1">
-  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="5" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="9" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s71" ss:Width="80" ss:Span="1"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell ss:MergeAcross="14"><Data ss:Type="String">Mapping Values For: Mapping of Data Collection Category ( MAP_MDEF_CATEG )</Data></Cell>
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Mapping Values For: Mapping of Location Aggregation Function ( MAP_ADEF_FUNC )</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell ss:MergeAcross="2"><Data ss:Type="String"> © Copyright SAP SE. All rights reserved.</Data></Cell>
@@ -232,12 +232,28 @@
     <Cell ss:MergeAcross="2" ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">IV_MDEF_CATEGORY</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">EV_MDEF_CATEGORY</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">IV_ADEF_FUNC</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">EV_ADEF_FUNC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Emission</Data></Cell>
-    <Cell><Data ss:Type="String">001</Data></Cell>
+    <Cell><Data ss:Type="String">Arithmetic Sum (SUM)</Data></Cell>
+    <Cell><Data ss:Type="String">SUM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Arithmetic Average (AVG)</Data></Cell>
+    <Cell><Data ss:Type="String">AVG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Maximum Value (MAX)</Data></Cell>
+    <Cell><Data ss:Type="String">MAX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Minimum Value (MIN)</Data></Cell>
+    <Cell><Data ss:Type="String">MIN</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Count of Elements (COUNT)</Data></Cell>
+    <Cell><Data ss:Type="String">CNT</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -266,6 +282,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>10</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
