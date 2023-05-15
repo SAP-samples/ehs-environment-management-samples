@@ -8,16 +8,28 @@ const CRLF = "\r\n";
 
 const classifiers = readFileSync(path("classifiers.txt"), "utf-8").split(/[\r\n]+/);
 
-console.log(classifiers);
-
 const headers = [ 'MIGRATION_SRC(k/*),CLASSIFIER(*)' ];
 const texts = [ 'MIGRATION_SRC(k/*),LANGUAGE(k/*),CLASS_TEXT(*)' ];
 const r = (...args) => args.join(",");
 
-for (const classifier of classifiers) {
+function mkText(classifier) {
+    const [_, scope, category, name] = classifier.match(/^S(\d)(\.\d+)?.*?\s+(.*)/) || [];
+    if (!scope) {
+        return `GHG ${classifier}`;
+    } else if (scope === '3' && category) {
+        return `GHG Scope 3${category} - ${name}`;
+    } else {
+        return `GHG Scope ${scope} - ${name}`;
+    }
+}
+
+for (const entry of classifiers) {
+    let [classifier, classifierText] = entry.split(/,/);
+
     headers.push(r(classifier, classifier));
-    const [_, scope, name] = classifier.match(/^S(\d).*?\s+(.*)/) || [];
-    const classifierText = scope ? `${name} - GHG Scope ${scope}` : `${name} - GHG`;
+
+    if (!classifierText) classifierText = mkText(classifier);
+    console.log(classifierText);
     texts.push(r(classifier, "EN", classifierText));
 }
 

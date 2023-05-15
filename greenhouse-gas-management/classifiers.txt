@@ -3,7 +3,9 @@ Scope 2
 Scope 2 Location-based
 Scope 2 Market-based
 Scope 3
-Offsets
+Offsets - Scope 1,GHG Offsets for Scope 1
+Offsets - Scope 2,GHG Offsets for Scope 2
+Offsets - Scope 3,GHG Offsets for Scope 3
 Biogenic
 S1 Stationary Combustion
 S1 Mobile Combustion
@@ -15,7 +17,7 @@ S2 Purchased Stream
 S2 Purchased Cooling
 S3.1 Purchased Goods And Services
 S3.2 Capital Goods
-S3.3 Fuel And Energy Related Activities
+S3.3 Fuel And Energy Related Activities,GHG Scope 3.3 - Fuel- and Energy-related Activities Not Included in Scope 1 or 2
 S3.4 Upstream Transportation And Distribution
 S3.5 Waste Generated In Operations
 S3.6 Business Travel
