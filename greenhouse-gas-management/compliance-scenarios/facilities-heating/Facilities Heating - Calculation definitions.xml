@@ -12,7 +12,7 @@
   <Keywords>Standard Scope</Keywords>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2023-05-05T00:00:00Z</Created>
-  <LastSaved>2023-05-11T15:25:43Z</LastSaved>
+  <LastSaved>2023-05-12T09:29:25Z</LastSaved>
   <Company>KLINGERU</Company>
   <Version>16.00</Version>
  </DocumentProperties>
@@ -32,7 +32,7 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>31640</WindowHeight>
+  <WindowHeight>31560</WindowHeight>
   <WindowWidth>32767</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>500</WindowTopY>
@@ -50,7 +50,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676192">
+  <Style ss:ID="m105553228114080">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -63,7 +63,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676212">
+  <Style ss:ID="m105553228114100">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -76,7 +76,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676232">
+  <Style ss:ID="m105553228114120">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -89,7 +89,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171675984">
+  <Style ss:ID="m105553228112624">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -102,7 +102,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676004">
+  <Style ss:ID="m105553228112644">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -115,7 +115,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676024">
+  <Style ss:ID="m105553228112664">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -128,7 +128,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676044">
+  <Style ss:ID="m105553228112684">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -141,7 +141,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676064">
+  <Style ss:ID="m105553228112704">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -154,7 +154,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676084">
+  <Style ss:ID="m105553228112724">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -167,7 +167,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676104">
+  <Style ss:ID="m105553228112744">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -180,7 +180,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676124">
+  <Style ss:ID="m105553228112764">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -193,7 +193,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676144">
+  <Style ss:ID="m105553228112784">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -206,7 +206,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976000">
+  <Style ss:ID="m105553228155328">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -219,7 +219,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976020">
+  <Style ss:ID="m105553228155348">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -232,7 +232,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976040">
+  <Style ss:ID="m105553228155368">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -245,7 +245,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976060">
+  <Style ss:ID="m105553228155388">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -258,7 +258,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976080">
+  <Style ss:ID="m105553228155408">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -271,7 +271,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170976100">
+  <Style ss:ID="m105553228155428">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -284,7 +284,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974544">
+  <Style ss:ID="m105553228158240">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -297,7 +297,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974564">
+  <Style ss:ID="m105553228158260">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -310,7 +310,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974584">
+  <Style ss:ID="m105553228158280">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -323,7 +323,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974604">
+  <Style ss:ID="m105553228158300">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -336,7 +336,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974624">
+  <Style ss:ID="m105553228158320">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -349,7 +349,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974644">
+  <Style ss:ID="m105553228158340">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -362,7 +362,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974664">
+  <Style ss:ID="m105553228158360">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -375,7 +375,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170974684">
+  <Style ss:ID="m105553228158380">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -388,7 +388,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170986876">
+  <Style ss:ID="m105553228158508">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -401,7 +401,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170986896">
+  <Style ss:ID="m105553228158528">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -414,7 +414,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170986916">
+  <Style ss:ID="m105553228158548">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -427,7 +427,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170986936">
+  <Style ss:ID="m105553228158568">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -440,7 +440,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553170986956">
+  <Style ss:ID="m105553228158588">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -453,7 +453,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676668">
+  <Style ss:ID="m105553228113932">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -466,7 +466,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676688">
+  <Style ss:ID="m105553228113952">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -479,7 +479,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171676708">
+  <Style ss:ID="m105553228113972">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -492,7 +492,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171622880">
+  <Style ss:ID="m105553228107840">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -505,7 +505,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171622900">
+  <Style ss:ID="m105553228107860">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -518,7 +518,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171622920">
+  <Style ss:ID="m105553228107880">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -531,7 +531,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171613996">
+  <Style ss:ID="m105553228112060">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -544,7 +544,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171614016">
+  <Style ss:ID="m105553228112080">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -557,7 +557,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171614036">
+  <Style ss:ID="m105553228112100">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -570,7 +570,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171619404">
+  <Style ss:ID="m105553228115596">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -583,7 +583,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171619424">
+  <Style ss:ID="m105553228115616">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -596,7 +596,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171619444">
+  <Style ss:ID="m105553228115636">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -609,7 +609,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171619464">
+  <Style ss:ID="m105553228115656">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -622,7 +622,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171638908">
+  <Style ss:ID="m105553228106860">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -635,7 +635,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171643692">
+  <Style ss:ID="m105553227732108">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -648,7 +648,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171643712">
+  <Style ss:ID="m105553227732128">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -661,7 +661,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171643732">
+  <Style ss:ID="m105553227732148">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -674,7 +674,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171643752">
+  <Style ss:ID="m105553227732168">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -687,7 +687,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553171637660">
+  <Style ss:ID="m105553227604988">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -1348,11 +1348,11 @@
     <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553170986876"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228158508"><Data
       ss:Type="String">Header (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="9" ss:StyleID="m105553170986896"/>
+    <Cell ss:Index="2" ss:MergeDown="9" ss:StyleID="m105553228158528"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -1363,7 +1363,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553170986916"><Data
+    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553228158548"><Data
       ss:Type="String">Header Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Name</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -1401,7 +1401,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">CALC_ENGINE_TYPE</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553170986936"><Data
+    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553228158568"><Data
       ss:Type="String">Equation Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Requirement</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1430,7 +1430,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">EQU_KEY</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170986956"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228158588"><Data
       ss:Type="String">Execution Options</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Mode</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1450,12 +1450,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">EXEC_OPTION_LAST_ACTIV</Data></Cell>
    </Row>
    <Row ss:Index="17" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553170974544"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228158240"><Data
       ss:Type="String">Input (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="22" ss:StyleID="m105553170974564"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553170974584"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="22" ss:StyleID="m105553228158260"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553228158280"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -1474,7 +1474,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">NAME</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="10" ss:StyleID="m105553170974604"><Data
+    <Cell ss:Index="3" ss:MergeDown="10" ss:StyleID="m105553228158300"><Data
       ss:Type="String">Input data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Scenario (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1585,7 +1585,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DATA_COLLECTION_MIGR</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170974624"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228158320"><Data
       ss:Type="String">Calculation Definition External Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1615,7 +1615,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DATA_ADEF_ID</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170974644"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228158340"><Data
       ss:Type="String">Sampling Definition External Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Sampling Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1635,7 +1635,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DATA_SDEF_HEADER</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170974664"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228158360"><Data
       ss:Type="String">Requirement Regulatory List External Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Requirement (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1655,7 +1655,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DATA_REGLIST_RECORD_ID</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170974684"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228158380"><Data
       ss:Type="String">Location Property External Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1675,12 +1675,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DATA_LOC_PROP_KEY</Data></Cell>
    </Row>
    <Row ss:Index="42" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553170976000"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228155328"><Data
       ss:Type="String">Result Header (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="10" ss:StyleID="m105553170976020"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553170976040"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="10" ss:StyleID="m105553228155348"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553228155368"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -1699,7 +1699,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">ID</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553170976060"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228155388"><Data
       ss:Type="String">Result Header Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Name</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -1719,7 +1719,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">DESCRIPTION</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553170976080"><Data
+    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553228155408"><Data
       ss:Type="String">Subject</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Chemical/Physical Property ID</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1748,7 +1748,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">MATERIAL_KEY</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553170976100"><Data
+    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553228155428"><Data
       ss:Type="String">Result Header Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Unit of Measurement</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1786,12 +1786,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">RESULT_TYPE</Data></Cell>
    </Row>
    <Row ss:Index="55" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553171675984"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228112624"><Data
       ss:Type="String">Data Classifier</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="3" ss:StyleID="m105553171676004"/>
-    <Cell ss:MergeDown="2" ss:StyleID="m105553171676024"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="3" ss:StyleID="m105553228112644"/>
+    <Cell ss:MergeDown="2" ss:StyleID="m105553228112664"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -1829,12 +1829,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">SET_IND</Data></Cell>
    </Row>
    <Row ss:Index="61" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553171676044"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228112684"><Data
       ss:Type="String">Result Expression (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="12" ss:StyleID="m105553171676064"/>
-    <Cell ss:MergeDown="2" ss:StyleID="m105553171676084"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="12" ss:StyleID="m105553228112704"/>
+    <Cell ss:MergeDown="2" ss:StyleID="m105553228112724"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -1862,7 +1862,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">POSITION_ID</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553171676104"><Data
+    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553228112744"><Data
       ss:Type="String">Expression Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Scenario (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1900,7 +1900,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">EXPRESSION</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553171676124"><Data
+    <Cell ss:Index="3" ss:MergeDown="3" ss:StyleID="m105553228112764"><Data
       ss:Type="String">Equation Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Requirement (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1938,7 +1938,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">EQU_RESULT_KEY</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553171676144"><Data
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553228112784"><Data
       ss:Type="String">Limit Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Compliance Requirement (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -1958,12 +1958,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">LIMIT_KEY</Data></Cell>
    </Row>
    <Row ss:Index="76" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553171676192"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553228114080"><Data
       ss:Type="String">Description (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553171676212"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553171676232"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553228114100"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553228114120"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Calculation Definition (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -2038,10 +2038,10 @@
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
     <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Calculation definition</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+   <Row ss:AutoFitHeight="0" ss:Height="7" ss:StyleID="s65">
     <Cell ss:MergeAcross="14"><Data ss:Type="String">Version S4CORE 108  - Standard Scope - 10.05.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="12">
+   <Row ss:AutoFitHeight="0" ss:Height="1">
     <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
@@ -2080,13 +2080,13 @@
     <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
     <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="1">
     <Cell ss:StyleID="s102"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="3" ss:StyleID="m105553171676668"><Data ss:Type="String">Header Data</Data></Cell>
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553171676688"><Data ss:Type="String">Equation Data</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171676708"><Data ss:Type="String">Execution Options</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m105553228113932"><Data ss:Type="String">Header Data</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553228113952"><Data ss:Type="String">Equation Data</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228113972"><Data ss:Type="String">Execution Options</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="169">
     <Cell ss:StyleID="s109"><Data ss:Type="String">Calculation Definition (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Name*&#10;&#10;Speifies the name of the calculation definition.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Location Key&#10;&#10;Specifies the key that identifies the location.&#10;The location is a subordinate entity in a plant.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
@@ -2124,6 +2124,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
+   <Zoom>140</Zoom>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
@@ -2144,8 +2145,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>9</ActiveRow>
-     <ActiveCol>6</ActiveCol>
+     <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -2259,16 +2259,16 @@
     <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171613996"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="10" ss:StyleID="m105553171614016"><Data ss:Type="String">Input data</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228112060"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="10" ss:StyleID="m105553228112080"><Data ss:Type="String">Input data</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Measurement Definition External Key</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171614036"><Data ss:Type="String">Calculation Definition External Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228112100"><Data ss:Type="String">Calculation Definition External Key</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Location Aggregation Definition External Key</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171622880"><Data ss:Type="String">Sampling Definition External Key</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171622900"><Data ss:Type="String">Requirement Regulatory List External Key</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171622920"><Data ss:Type="String">Location Property External Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228107840"><Data ss:Type="String">Sampling Definition External Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228107860"><Data ss:Type="String">Requirement Regulatory List External Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228107880"><Data ss:Type="String">Location Property External Key</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="305">
     <Cell ss:StyleID="s109"><Data ss:Type="String">Calculation Definition (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Name*&#10;&#10;Specifies the name of the input variable of the calculation definition.&#10;Spaces in the name are not allowed.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Compliance Scenario (ext. ID)&#10;&#10;Specifies the Migration External Key of the compliance scenario.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
@@ -2337,6 +2337,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
+   <Zoom>130</Zoom>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
@@ -2356,7 +2357,6 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>10</ActiveRow>
      <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
@@ -2420,10 +2420,10 @@
     <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171619404"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171619424"><Data ss:Type="String">Result Header Data</Data></Cell>
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553171619444"><Data ss:Type="String">Subject</Data></Cell>
-    <Cell ss:MergeAcross="3" ss:StyleID="m105553171619464"><Data ss:Type="String">Result Header Data</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228115596"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553228115616"><Data ss:Type="String">Result Header Data</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553228115636"><Data ss:Type="String">Subject</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m105553228115656"><Data ss:Type="String">Result Header Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s109"><Data ss:Type="String">Calculation Definition (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
@@ -2524,7 +2524,7 @@
     <Cell><Data ss:Type="String">ETE;1;0;C;1;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553171638908"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553228106860"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Data Classifier Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -2653,10 +2653,10 @@
     <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553171643692"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="3" ss:StyleID="m105553171643712"><Data ss:Type="String">Expression Data</Data></Cell>
-    <Cell ss:MergeAcross="3" ss:StyleID="m105553171643732"><Data ss:Type="String">Equation Data</Data></Cell>
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171643752"><Data ss:Type="String">Limit Data</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553227732108"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m105553227732128"><Data ss:Type="String">Expression Data</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="m105553227732148"><Data ss:Type="String">Equation Data</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553227732168"><Data ss:Type="String">Limit Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s109"><Data ss:Type="String">Calculation Definition (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
@@ -2699,6 +2699,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
+   <Zoom>130</Zoom>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
@@ -2718,7 +2719,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>0</ActiveCol>
+     <ActiveCol>7</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -2757,7 +2758,7 @@
     <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553171637660"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553227604988"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Description Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
