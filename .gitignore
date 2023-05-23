@@ -1,2 +1,5 @@
 .DS_Store
 .vscode
+tmp
+node_modules
+package-lock.json
