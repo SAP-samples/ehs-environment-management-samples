@@ -12,7 +12,7 @@
   <Keywords>Standard Scope</Keywords>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2023-05-05T00:00:00Z</Created>
-  <LastSaved>2023-05-23T11:30:04Z</LastSaved>
+  <LastSaved>2023-05-24T07:59:14Z</LastSaved>
   <Company>KLINGERU</Company>
   <Version>16.00</Version>
  </DocumentProperties>
@@ -36,7 +36,7 @@
   <WindowWidth>25640</WindowWidth>
   <WindowTopX>6980</WindowTopX>
   <WindowTopY>4500</WindowTopY>
-  <ActiveSheet>2</ActiveSheet>
+  <ActiveSheet>5</ActiveSheet>
   <FirstVisibleSheet>2</FirstVisibleSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
@@ -4348,7 +4348,7 @@
     <Cell><Data ss:Type="DateTime">2020-01-01T00:00:00.000</Data></Cell>
     <Cell><Data ss:Type="DateTime">1899-12-31T08:00:00.000</Data></Cell>
     <Cell><Data ss:Type="String">UTC</Data></Cell>
-    <Cell><Data ss:Type="String">US-GHG Regulation</Data></Cell>
+    <Cell><Data ss:Type="String">PREFIX__ Regulation</Data></Cell>
     <Cell><Data ss:Type="String">Custom</Data></Cell>
    </Row>
   </Table>
@@ -4366,13 +4366,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
    <TopRowBottomPane>8</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>10</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -4380,12 +4379,15 @@
     </Pane>
     <Pane>
      <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
     </Pane>
     <Pane>
      <Number>0</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>13</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -4600,7 +4602,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PREFIX__US_GHG</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
-    <Cell><Data ss:Type="String">US Mandatory GHG Reporting</Data></Cell>
+    <Cell><Data ss:Type="String">PREFIX__ US Mandatory GHG Reporting</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -4617,6 +4619,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>56</TabColorIndex>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
@@ -4636,6 +4639,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
+     <ActiveRow>9</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
