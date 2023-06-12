@@ -1,5 +1,9 @@
 # SAP EHS Environment Management Samples
 
+<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/ehs-environment-management-samples)](https://api.reuse.software/info/github.com/SAP-samples/ehs-environment-management-samples)
+-->
+
 ## Description
 
 Find examples for mass creating business objects using the SAP Migration Cockpit, code examples on the use APIs and other useful stuff for getting started with SAP EHS Environment Management in this project.
@@ -43,8 +47,6 @@ This project is maintained by SAP. Contribution is currently not possible.
 
 Checkout the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file for more details on the code of conduct for this open source project.
 
-## License
-
 ## Download
 
 If you have a Git client, you can clone this Git repository by running:
@@ -61,8 +63,14 @@ No known issues.
 
 ## How to Obtain Support
 
-You can create an issue if you have problems with the provided content or looking for missing examples.
+[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+
+For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
 ## To-Do (Upcoming changes)
 
 You can watch this GitHub repository to stay informed on updates.
+
+## License
+
+Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
