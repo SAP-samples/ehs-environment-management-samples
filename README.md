@@ -52,7 +52,7 @@ Checkout the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file for more details on
 If you have a Git client, you can clone this Git repository by running:
 
 ```
-https://github.com/SAP-samples/ehs-environment-management-samples.git
+git clone https://github.com/SAP-samples/ehs-environment-management-samples.git
 ```
 
 Alternatively, please use the *Download ZIP* option in *<> Code* menu of this GitHub repository and unpack the downloaded ZIP file.
