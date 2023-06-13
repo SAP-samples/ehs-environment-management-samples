@@ -1,4 +1,5 @@
-![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/ehs-environment-management-samples)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/ehs-environment-management-samples)](https://api.reuse.software/info/github.com/SAP-samples/ehs-environment-management-samples)
+
 # SAP EHS Environment Management Samples
 
 ## Description
