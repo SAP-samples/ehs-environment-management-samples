@@ -1,6 +1,5 @@
 MIGRATION_SRC(k/*),CLASSIFIER(*)
 Scope 1,Scope 1
-Scope 2,Scope 2
 Scope 2 Location-based,Scope 2 Location-based
 Scope 2 Market-based,Scope 2 Market-based
 Scope 3,Scope 3

@@ -1,6 +1,5 @@
 MIGRATION_SRC(k/*),LANGUAGE(k/*),CLASS_TEXT(*)
 Scope 1,EN,GHG Scope 1
-Scope 2,EN,GHG Scope 2
 Scope 2 Location-based,EN,GHG Scope 2 Location-based
 Scope 2 Market-based,EN,GHG Scope 2 Market-based
 Scope 3,EN,GHG Scope 3
