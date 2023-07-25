@@ -15,18 +15,18 @@ S2 Purchased Electricity,EN,GHG Scope 2 - Purchased Electricity
 S2 Purchased Heating,EN,GHG Scope 2 - Purchased Heating
 S2 Purchased Stream,EN,GHG Scope 2 - Purchased Stream
 S2 Purchased Cooling,EN,GHG Scope 2 - Purchased Cooling
-S3.1 Purchased Goods And Services,EN,GHG Scope 3.1 - Purchased Goods And Services
+S3.1 Purchased Goods And Srvs,EN,GHG Scope 3.1 – Purchased Goods and Services
 S3.2 Capital Goods,EN,GHG Scope 3.2 - Capital Goods
-S3.3 Fuel And Energy Related Activities,EN,GHG Scope 3.3 - Fuel- and Energy-related Activities Not Included in Scope 1 or 2
-S3.4 Upstream Transportation And Distribution,EN,GHG Scope 3.4 - Upstream Transportation And Distribution
-S3.5 Waste Generated In Operations,EN,GHG Scope 3.5 - Waste Generated In Operations
+S3.3 Fuel And Engy Rel Activts,EN,GHG Scope 3.3 - Fuel- and Energy-related Activities Not Included in Scope 1 or 2
+S3.4 Upstream Transp And Distr,EN,GHG Scope 3.4 – Upstream Transportation and Distribution
+S3.5 Waste Generated In Ops,EN,GHG Scope 3.5 – Waste Generated in Operations
 S3.6 Business Travel,EN,GHG Scope 3.6 - Business Travel
 S3.7 Employee Commuting,EN,GHG Scope 3.7 - Employee Commuting
 S3.8 Upstream Leased Assets,EN,GHG Scope 3.8 - Upstream Leased Assets
-S3.9 Downstream Transportation And Distribution,EN,GHG Scope 3.9 - Downstream Transportation And Distribution
-S3.10 Processing Of Sold Products,EN,GHG Scope 3.10 - Processing Of Sold Products
+S3.9 Downstream Transp And Dis,EN,GHG Scope 3.9 – Downstream Transportation and Distribution
+S3.10 Processing Of Sold Prods,EN,GHG Scope 3.10 Processing of Sold Products
 S3.11 Use Of Sold Products,EN,GHG Scope 3.11 - Use Of Sold Products
-S3.12 End Of Life Treatment Of Sold Products,EN,GHG Scope 3.12 - End Of Life Treatment Of Sold Products
+S3.12 EoL Treatm Of Sold Prods,EN,GHG Scope 3.12 – End-of-Life Treatment of Sold Products
 S3.13 Downstream Leased Assets,EN,GHG Scope 3.13 - Downstream Leased Assets
 S3.14 Franchises,EN,GHG Scope 3.14 - Franchises
 S3.15 Investments,EN,GHG Scope 3.15 - Investments

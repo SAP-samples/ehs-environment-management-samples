@@ -15,18 +15,18 @@ S2 Purchased Electricity,S2 Purchased Electricity
 S2 Purchased Heating,S2 Purchased Heating
 S2 Purchased Stream,S2 Purchased Stream
 S2 Purchased Cooling,S2 Purchased Cooling
-S3.1 Purchased Goods And Services,S3.1 Purchased Goods And Services
+S3.1 Purchased Goods And Srvs,S3.1 Purchased Goods And Srvs
 S3.2 Capital Goods,S3.2 Capital Goods
-S3.3 Fuel And Energy Related Activities,S3.3 Fuel And Energy Related Activities
-S3.4 Upstream Transportation And Distribution,S3.4 Upstream Transportation And Distribution
-S3.5 Waste Generated In Operations,S3.5 Waste Generated In Operations
+S3.3 Fuel And Engy Rel Activts,S3.3 Fuel And Engy Rel Activts
+S3.4 Upstream Transp And Distr,S3.4 Upstream Transp And Distr
+S3.5 Waste Generated In Ops,S3.5 Waste Generated In Ops
 S3.6 Business Travel,S3.6 Business Travel
 S3.7 Employee Commuting,S3.7 Employee Commuting
 S3.8 Upstream Leased Assets,S3.8 Upstream Leased Assets
-S3.9 Downstream Transportation And Distribution,S3.9 Downstream Transportation And Distribution
-S3.10 Processing Of Sold Products,S3.10 Processing Of Sold Products
+S3.9 Downstream Transp And Dis,S3.9 Downstream Transp And Dis
+S3.10 Processing Of Sold Prods,S3.10 Processing Of Sold Prods
 S3.11 Use Of Sold Products,S3.11 Use Of Sold Products
-S3.12 End Of Life Treatment Of Sold Products,S3.12 End Of Life Treatment Of Sold Products
+S3.12 EoL Treatm Of Sold Prods,S3.12 EoL Treatm Of Sold Prods
 S3.13 Downstream Leased Assets,S3.13 Downstream Leased Assets
 S3.14 Franchises,S3.14 Franchises
 S3.15 Investments,S3.15 Investments

@@ -26,6 +26,8 @@ function mkText(classifier) {
 for (const entry of classifiers) {
     let [classifier, classifierText] = entry.split(/,/);
 
+    if (classifier.length>30) throw new Error(`Data classifier ${classifier} is too long`);
+
     headers.push(r(classifier, classifier));
 
     if (!classifierText) classifierText = mkText(classifier);
