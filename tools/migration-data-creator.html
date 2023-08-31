@@ -1,0 +1,68 @@
+<script src="https://unpkg.com/vue@3"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/4.2.7/fxparser.min.js"></script>
+<script src="./DataMigrationUtil.js"></script>
+
+<div id="app">{{ greeting }}
+    <button type="button" @click="selectTemplatesDirectory">Select Templates Directory</button>
+    <button type="button" @click="selectConfig">Select Configuration</button>
+    <button type="button" @click="selectTargetDirectory">Select Target Directory</button>
+    <button type="button" @click="createMigrationFiles">Create Migration Files</button>
+</div>
+
+<script>
+  /*
+    We can create a HTML file which can be loaded in the browser. With the File System APIs
+    templates, the configuration and target directory to write the data migration XML files can be accessed.
+
+    Unfortunately, it is not possible to execute XMLHttpRequests to load files from the local application, so we
+    need to always use the File Sytem API always. Probably, we can convert build a PWA from it and leverage some
+    advantages by that. But that's not so important.
+  */
+
+
+  Vue.createApp({
+    data() {
+      return {
+        greeting: 'Hello, World!'
+      }
+    },
+    methods: {
+        async selectTemplatesDirectory() {
+            const dir = await window.showDirectoryPicker({});
+        },
+
+        async selectConfig() {
+            const templateHandle = (await window.showOpenFilePicker())[0];
+            const templateFile = await templateHandle.getFile();
+            const template = await templateFile.text();
+            console.log(template);
+            console.log(readExcelTab(template));
+        },
+
+        async selectTargetDirectory() {
+            const dir = await window.showDirectoryPicker({ mode: "readwrite"});
+            const a = await dir.getFileHandle("a.xml", { create: true});
+            aFile = await a.createWritable();
+            aFile.write("abc");
+            aFile.close();
+            const b = await dir.getFileHandle("b.xml", { create: true});
+            bFile = await b.createWritable();
+            bFile.write("def");
+            bFile.close();
+        },
+
+        async createMigrationFiles() {
+            // load config
+            // loop through to be created migration files in config
+            //   load empty template for migration file
+            //   loop through entries in page of config
+            //     load specified template from entry
+            //     replace placeholders
+            //     append it to migration file
+            //   endloop
+            //   save migration file
+            // endloop
+        }
+    }
+  }).mount('#app')
+</script>
