@@ -43,6 +43,14 @@ function first(o) {
   }
 }
 
+function arrayify(o) {
+  if (Array.isArray(o)) {
+    return o;
+  } else {
+    return [ o ];
+  }
+}
+
 function readExcelTab(file) {
   const excel = readExcel(file);
   const rows = first(excel.Workbook.Worksheet).Table.Row;
@@ -53,6 +61,36 @@ function readExcelTab(file) {
   }
 
   return tab;
+}
+
+function text(cell) {
+  return cell?.Data?.["#text"] || cell?.[0]?.Data?.["#text"];
+}
+
+function readExcelSimple(file) {
+  const excel = readExcel(file);
+  const worksheetContent = {};
+  for (const worksheet of arrayify(excel.Workbook.Worksheet)) {
+    const rows = arrayify(worksheet.Table.Row);
+    if (rows.length < 2) continue;
+
+    const [ headerRow, ...contentRows] = rows;
+
+    const header = headerRow.Cell.map( headerCell => text(headerCell) );
+    const content = contentRows.map( row => {
+      const entry = {};
+      for (const i in arrayify(row.Cell)) {
+        const cell = arrayify(row.Cell)[i];
+        entry[header[i]] = text(cell);
+      }
+
+      return entry;
+    });
+
+    worksheetContent[worksheet['@_ss:Name']] = content;
+  }
+
+  return worksheetContent;
 }
 
 function createMigrationFile(template, targetPrefixes) {

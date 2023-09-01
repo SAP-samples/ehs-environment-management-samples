@@ -12,7 +12,7 @@
   <Keywords>Standard Scope</Keywords>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2023-05-05T00:00:00Z</Created>
-  <LastSaved>2023-05-10T13:03:24Z</LastSaved>
+  <LastSaved>2023-09-01T09:54:14Z</LastSaved>
   <Company>KLINGERU</Company>
   <Version>16.00</Version>
  </DocumentProperties>
@@ -32,10 +32,10 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>17440</WindowHeight>
-  <WindowWidth>28040</WindowWidth>
-  <WindowTopX>15480</WindowTopX>
-  <WindowTopY>8040</WindowTopY>
+  <WindowHeight>16940</WindowHeight>
+  <WindowWidth>27640</WindowWidth>
+  <WindowTopX>17000</WindowTopX>
+  <WindowTopY>12540</WindowTopY>
   <ActiveSheet>2</ActiveSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
@@ -50,7 +50,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127596368">
+  <Style ss:ID="m105553123930512">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -63,7 +63,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127596388">
+  <Style ss:ID="m105553123930532">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -76,7 +76,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127596408">
+  <Style ss:ID="m105553123930552">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -89,7 +89,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127600172">
+  <Style ss:ID="m105553123933484">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -102,7 +102,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127600192">
+  <Style ss:ID="m105553123933504">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -115,7 +115,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127600212">
+  <Style ss:ID="m105553123933524">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -128,7 +128,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127600232">
+  <Style ss:ID="m105553123933544">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -141,7 +141,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127601420">
+  <Style ss:ID="m105553123932444">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -154,7 +154,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553127601440">
+  <Style ss:ID="m105553123932464">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -167,7 +167,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553126572508">
+  <Style ss:ID="m105553123933900">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -812,11 +812,11 @@
     <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553127600172"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553123933484"><Data
       ss:Type="String">Header (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="10" ss:StyleID="m105553127600192"/>
+    <Cell ss:Index="2" ss:MergeDown="10" ss:StyleID="m105553123933504"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Location Aggregation ID</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -827,7 +827,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553127600212"><Data
+    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553123933524"><Data
       ss:Type="String">Subject</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Chemical/Physical Property (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
@@ -856,7 +856,7 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">MATERIAL_KEY</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3" ss:MergeDown="6" ss:StyleID="m105553127600232"><Data
+    <Cell ss:Index="3" ss:MergeDown="6" ss:StyleID="m105553123933544"><Data
       ss:Type="String">Location Aggregation Data</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Data Period</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -921,12 +921,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">EXEC_OPTION</Data></Cell>
    </Row>
    <Row ss:Index="18" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553127596368"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553123930512"><Data
       ss:Type="String">Description</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553127596388"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553127596408"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553123930532"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553123930552"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Location Aggregation ID</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -1046,8 +1046,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s100"><Data ss:Type="String">Key</Data></Cell>
-    <Cell ss:MergeAcross="2" ss:StyleID="m105553127601420"><Data ss:Type="String">Subject</Data></Cell>
-    <Cell ss:MergeAcross="6" ss:StyleID="m105553127601440"><Data ss:Type="String">Location Aggregation Data</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553123932444"><Data ss:Type="String">Subject</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="m105553123932464"><Data ss:Type="String">Location Aggregation Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s107"><Data ss:Type="String">Location Aggregation ID*&#10;&#10;Specifies the Migration Source Key of a location aggregation. The Migration Source Key is a user-defined unique identifier of every location aggregation. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
@@ -1063,14 +1063,14 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Aggregation Mode&#10;&#10;Specifies the execution mode of the location aggregation.&#10;&#10;Set an execution mode by selecting from the following available options:&#10;• Automatic: 01&#10;• Automatic for Complete Data Only: 02&#10;• Manual: 03&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PREFIX__Boston_FH Fuel Oil</Data></Cell>
+    <Cell><Data ss:Type="String">FACILITIES_HEATING_OIL_AGGR</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Distillate Fuel Oil No. 2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Monthly</Data></Cell>
     <Cell><Data ss:Type="String">Arithmetic Sum (SUM)</Data></Cell>
     <Cell><Data ss:Type="String">Gallon</Data></Cell>
     <Cell><Data ss:Type="String">Boston</Data></Cell>
     <Cell><Data ss:Type="String">Facilities Heating - Fuel Oil</Data></Cell>
-    <Cell><Data ss:Type="String">Facilities Heating - Fuel Oil</Data></Cell>
+    <Cell><Data ss:Type="String">DC_FACILITIES_HEATING_OIL</Data></Cell>
     <Cell><Data ss:Type="String">Automatic for Complete Data Only</Data></Cell>
    </Row>
   </Table>
@@ -1108,7 +1108,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>7</ActiveCol>
+     <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -1147,7 +1147,7 @@
     <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553126572508"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553123933900"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Description Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
