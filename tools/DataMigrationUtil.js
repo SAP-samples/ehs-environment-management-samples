@@ -93,7 +93,22 @@ function readExcelSimple(file) {
   return worksheetContent;
 }
 
-function createMigrationFile(template, targetPrefixes) {
+
+/*
+const config =
+[
+  {
+    Template: 'PLANT',
+    Key: 'BOSTON'
+  },
+  {
+    Template: 'BUILDING',
+    Key: 'BOSTON_1'
+  }
+];
+*/
+
+function createMigrationFile(template, config) {
   const doc = readExcel(template);
   const worksheets = doc.Workbook.Worksheet.slice(2);
   for (const worksheet of worksheets) {
@@ -110,7 +125,7 @@ function createMigrationFile(template, targetPrefixes) {
 
     worksheet.Table.Row = headerRows;
 
-    for (const targetPrefix of targetPrefixes) {
+    for (const targetPrefix of config) {
       for (const row of dataRows) {
         const clonedRow = JSON.parse(JSON.stringify(row));
 
