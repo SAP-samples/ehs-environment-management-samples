@@ -1,3 +1,5 @@
+const { XMLParser, XMLBuilder } = require('fast-xml-parser');
+
 const options = {
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
@@ -29,7 +31,7 @@ function renderExcel(excel) {
   return cleanXml;
 }
 
-function isDataRow(row) {
+function isDataRow(row, sourcePrefix) {
   return row.Cell?.find((cell) =>
     cell.Data?.["#text"]?.startsWith?.(sourcePrefix)
   );
@@ -108,7 +110,7 @@ const config =
 ];
 */
 
-function createMigrationFile(template, config) {
+function createMigrationFile(template, sourcePrefix, config) {
   const doc = readExcel(template);
   const worksheets = doc.Workbook.Worksheet.slice(2);
   for (const worksheet of worksheets) {
@@ -119,7 +121,7 @@ function createMigrationFile(template, config) {
     //console.log(node, fields);
 
     const headerRows = rows.slice(0, 8);
-    const dataRows = rows.slice(8).filter((row) => isDataRow(row));
+    const dataRows = rows.slice(8).filter((row) => isDataRow(row, sourcePrefix));
 
     if (dataRows.length === 0) continue;
 
@@ -142,8 +144,13 @@ function createMigrationFile(template, config) {
     }
 
     worksheet.Table["@_ss:ExpandedRowCount"] = worksheet.Table.Row.length;
-
-    //console.log(JSON.stringify(rows,null, 2));
-    //process.exit(0);
   }
+
+  return doc;
+}
+
+module.exports = {
+  createMigrationFile,
+  readExcelSimple,
+  renderExcel
 }
