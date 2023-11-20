@@ -1,0 +1,1297 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>EHS_AGGRCL</Title>
+  <Author>SCHMIDTB</Author>
+  <Keywords>Standard Scope</Keywords>
+  <LastAuthor>Schmidt, Benjamin</LastAuthor>
+  <Created>2023-07-25T00:00:00Z</Created>
+  <LastSaved>2023-10-11T07:05:23Z</LastSaved>
+  <Company>SCHMIDTB</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <APPLICATION dt:dt="string">SLO</APPLICATION>
+  <OBJECT_NAME dt:dt="string">EHS - Data classifier</OBJECT_NAME>
+  <VERSION dt:dt="string">S4CORE 109  - Standard Scope - 15.09.2023</VERSION>
+  <SYSTEM dt:dt="string">QM7 / 910</SYSTEM>
+  <LANGUAGE dt:dt="string">E</LANGUAGE>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>15</Index>
+    <RGB>#BFBFBF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16740</WindowHeight>
+  <WindowWidth>27840</WindowWidth>
+  <WindowTopX>6760</WindowTopX>
+  <WindowTopY>4400</WindowTopY>
+  <ActiveSheet>3</ActiveSheet>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223903184">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223903204">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223936428">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#F0AB00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223936448">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223936468">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553223907404">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="20" ss:Color="#FFFFFF"
+    ss:Bold="1" ss:Italic="1"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Fields" ss:RefersTo="='Field List'!R1C1"/>
+  <NamedRange ss:Name="Instructions" ss:RefersTo="=Introduction!R1C1"/>
+ </Names>
+ <Worksheet ss:Name="Introduction" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="83" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="20"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="20"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="671"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Introduction to Data Migration Templates</Data><NamedCell
+      ss:Name="Instructions"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Version S4CORE 109  - Standard Scope - 15.09.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:MergeAcross="4"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Overview </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">A migration template (Microsoft Excel XML Spreadsheet 2003 file) consists of different sheets which are visible at the bottom of the migration template. You use the different sheets to specify the data that belongs to different data structures. For example the migration template for the migration object 'Product', contains a sheet for basic data, a sheet for plant data, and so on. Some sheets are mandatory, and some are optional. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s73"><Data ss:Type="String">A migration template is based on the active view of the relevant migration object. You can find information about the active view in the Microsoft Excel XML file. In the file, navigate to File -&gt; Info. You can find the active view name under Properties -&gt; Tags. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Prerequisites </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In the Microsoft Excel XML Spreadsheet 2003 file, navigate to 'File' -&gt; 'Options' -&gt; 'Advanced'. Under the option 'When calculating this workbook:', ensure that the option 'Set precision as displayed' is selected. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Information about File Sizes </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">SAP S/4HANA Cloud </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you are migrating data to SAP S/4HANA Cloud, the default size limit for each uploaded XML file is 100MB.  If required, you can zip several files together. Note that the combined size of all the XML files you want to add to the zip file must not exceed 160MB.  The limit for zip file is still 100MB. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">SAP S/4HANA On-Premise </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you are migrating data to SAP S/4HANA, the default size limit for each uploaded XML file is 100MB. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can increase the size limit for each uploaded XML file to 160MB by changing the system parameter (icm/HTTP/max_request_size_KB). If required, you can zip several files together. Note that the combined size of all the XML files you want to add to the zip file must not exceed 160MB. The limit for the zip file is still 160 MB with the adjusted system parameter. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">The Field List Sheet </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">The 'Field List' sheet is one of the first sheets in the migration template. You use this sheet to get an overview of the expected data in one central location. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">It contains information about the mandatory and optional sheets, as well as detailed information for each sheet (for example the expected data type and length for the fields in each sheet). </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">On the 'Field List' sheet, you can view the following information for each field in the migration template: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The name of the sheet, and whether it is mandatory or optional. Only mandatory sheets have the suffix 'Mandatory', for example 'Basic Data (Mandatory)'. All other sheets are optional. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can quickly get an overview of the mandatory and optional sheets by looking at the color of the sheet names at the bottom of the migration template. The name of the mandatory sheets have the color orange, while the optional sheets have the color blue. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The group name for the fields in a sheet. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The individual fields in each sheet, as well as whether fields are mandatory for a sheet. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Information about the expected format of the individual fields, for example the data type and length. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In the field list sheet, certain technical information about the fields is hidden by default. The columns 'SAP Structure' and 'SAP Field' (columns 8 and 9) are hidden by default. The column 'SAP Structure' is the technical name of the structure that the field belongs to. The column 'SAP Field' is the technical name of the field. To unhide these columns, select the columns adjacent to either side of the columns that you want to unhide. Right-click your selection, and choose 'Unhide'. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you want to extract data from SAP ERP, the technical name of structure and the technical name of the field often corresponds to the SAP ERP table name and field name. Also, the SAP Release Note (2568909) for SAP S/4HANA Cloud data migration content uses the technical names of the structures and fields. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Working with Sheets </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">For each migration template, you need to specify data for the mandatory sheets, and for the optional sheets that are relevant for your project: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mandatory sheets (orange) </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Mandatory sheets represent the minimum set of data you must provide for data migration. Fill in all mandatory fields. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Optional sheets (blue) </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Use optional sheets depending on your migration scope and available legacy data. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Viewing Additional Information for Each Column </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In row 8, you can view the field names in SAP S/4HANA, as well as additional information such as the expected format (for example the data type and length). Note that you must expand the row to view this additional information. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Some fields are mandatory, and some are optional. The wildcard character (‘*’) beside the name of a field indicates that the field is mandatory. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Although an optional sheet may contain mandatory columns, if the sheet is not relevant for your project, there is no need to fill the mandatory columns in the sheet with data. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Rows 4, 5, and 6 are hidden by default. Row 4 is the technical name of the structure (corresponds to the sheet name). Row 5 is the technical name of the field (corresponds to row 8 - the field description). Row 6 contains technical information such as the data type and length. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">To unhide these rows, select the rows adjacent to either side of the rows that you want to unhide. Right-click your selection, and choose 'Unhide'. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Working with Different Data Types </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can view the data type for a field in row 8 (see 'Viewing Additional Information for Each Column' above). Depending on the field, one of the following data types may be required: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Letters, numbers, and special characters are permitted. In the SAP S/4HANA migration cockpit, you can map the values of certain fields with the data type text (usually those fields with Length: 80) to their correct SAP S/4HANA target values. You can do this value mapping in the SAP S/4HANA migration cockpit when you start the transfer (in the step 'Convert Values'). </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter numbers with decimals in the relevant country-specific format, for example 12.34 (United States) or 12,34 (Germany). For fields with decimals, the declared length includes decimals (if required), for example if the information for the column states:  Length: 8, Decimals: 3, then a number such as 12345.678 is permitted. Note that decimal places are not mandatory. In this example, you can specify a whole number up to length 8 without decimal places, for example ‘1’. This number would be set to ‘1.000’ internally. For negative numbers, ensure that a minus sign ('-') directly precedes the number, for example '-100'. Note that currencies with more than 3 decimal places are not supported. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note that the maximum field length supported by Microsoft Excel is 15 digits (including decimals). If you have longer numbers, use the option for transferring data to S/4HANA using staging tables. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Date </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter the date in your country-specific format, for example 12/31/1998 (United States) or 31.12.1998 (Germany). Note that Microsoft Excel automatically recognizes different date formats and transforms them automatically to the correct XML format. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Time </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter the time in the format HH:MM:SS, for example 02:52:40 </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Copying Data to a Sheet </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">When copying data to a sheet from Microsoft Excel, always right-click the relevant cell and choose the paste option 'Values (V)'. Avoid pasting data that includes formatting and formulas into the migration template, as this will corrupt the structure of the XML migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Using the Find and Replace Function </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Do not use the Microsoft Excel function 'Find and Replace'. If you change data by using this function, you may also unintentionally change the field names and corrupt the structure of the XML migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Saving the Migration Template </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Ensure that you only save the migration template as a Microsoft Excel XML Spreadsheet 2003 file. Other file types are not supported by the SAP S/4HANA migration cockpit. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Important Information </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Do not make any changes to the structure of the migration template, specifically: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not delete, rename or change the order of any sheet in the migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not change the formatting of any cells. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not use formulas. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not hide, remove, or change the order of any of the columns in the migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Any changes to the sheets will result in a corrupted XML structure. Such modified migration templates are not supported by the SAP S/4HANA migration cockpit. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <FitHeight>99</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>9</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Field List" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="67"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="172"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="83"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="56" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="56" ss:Span="1"/>
+   <Column ss:Index="11" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Field List for Migration Object: EHS - Data classifier</Data><NamedCell
+      ss:Name="Fields"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Version S4CORE 109  - Standard Scope - 15.09.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s74">
+    <Cell ss:Index="2" ss:MergeAcross="6"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Sheet Name</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Group Name</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Field Description</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Importance</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Length</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Decimal</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Structure</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553223936428"><Data
+      ss:Type="String">Header Data (mandatory)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="m105553223936448"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_HEADER</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Classifier Data</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Classifier</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">30    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_HEADER</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CLASSIFIER</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553223936468"><Data
+      ss:Type="String">Classifier Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553223903184"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553223903204"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Language</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LANGUAGE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Classifier Text Data</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">unrestricted</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CLASS_TEXT</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <FitHeight>99</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>9</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>4</SplitHorizontal>
+   <TopRowBottomPane>4</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Header Data">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="39" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="170" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Data classifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version S4CORE 109  - Standard Scope - 15.09.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_HEADER</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
+    <Cell><Data ss:Type="String">CLASSIFIER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;30;0;C;30;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Classifier Data</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Data Classifier (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Classifier*&#10;&#10;Specifies the name of the data classifier.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Location-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Location-based</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Market-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Market-based</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 2</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Biogenic</Data></Cell>
+    <Cell><Data ss:Type="String">Biogenic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Stationary Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Stationary Combustion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Mobile Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Mobile Combustion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Fugitive Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Fugitive Emissions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Process Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Process Emissions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Electricity</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Electricity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Heating</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Heating</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Steam</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Steam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Cooling</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Cooling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.1 Purchased Goods And Srvs</Data></Cell>
+    <Cell><Data ss:Type="String">S3.1 Purchased Goods And Srvs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.2 Capital Goods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.2 Capital Goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.3 Fuel And Engy Rel Activts</Data></Cell>
+    <Cell><Data ss:Type="String">S3.3 Fuel And Engy Rel Activts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.4 Upstream Transp And Distr</Data></Cell>
+    <Cell><Data ss:Type="String">S3.4 Upstream Transp And Distr</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.5 Waste Generated In Ops</Data></Cell>
+    <Cell><Data ss:Type="String">S3.5 Waste Generated In Ops</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.6 Business Travel</Data></Cell>
+    <Cell><Data ss:Type="String">S3.6 Business Travel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.7 Employee Commuting</Data></Cell>
+    <Cell><Data ss:Type="String">S3.7 Employee Commuting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.8 Upstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.8 Upstream Leased Assets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.9 Downstream Transp And Dis</Data></Cell>
+    <Cell><Data ss:Type="String">S3.9 Downstream Transp And Dis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.10 Processing Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.10 Processing Of Sold Prods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.11 Use Of Sold Products</Data></Cell>
+    <Cell><Data ss:Type="String">S3.11 Use Of Sold Products</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.12 EoL Treatm Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.12 EoL Treatm Of Sold Prods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.13 Downstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.13 Downstream Leased Assets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.14 Franchises</Data></Cell>
+    <Cell><Data ss:Type="String">S3.14 Franchises</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.15 Investments</Data></Cell>
+    <Cell><Data ss:Type="String">S3.15 Investments</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>51</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Classifier Text">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="39" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="170"/>
+   <Column ss:StyleID="s99" ss:Width="120"/>
+   <Column ss:StyleID="s99" ss:Width="394"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Data classifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version S4CORE 109  - Standard Scope - 15.09.2023 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_TEXT</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">MIGRATION_SRC</Data></Cell>
+    <Cell><Data ss:Type="String">LANGUAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CLASS_TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553223907404"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Classifier Text Data</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Data Classifier (ext. ID)*&#10;&#10;Specifies the Migration Source Key. The Migration Source Key is a user-defined unique identifier of every object. It is a mandatory parameter. This key is saved in the database and is further used to identify which entries have already been migrated.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Language*&#10;&#10;Indicates the language of a translation entered for the text.&#10;&#10;Enter the language code according to ISO 639, for example &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Text*&#10;&#10;Specifies the description of the data classifier in the defined language.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Location-based</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 Location-based</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Market-based</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 Market-based</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Offsets for Scope 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 2</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Offsets for Scope 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Offsets for Scope 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# Biogenic</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Biogenic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Stationary Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 1 - Stationary Combustion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Mobile Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 1 - Mobile Combustion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Fugitive Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 1 - Fugitive Emissions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S1 Process Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 1 - Process Emissions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Electricity</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Electricity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Heating</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Heating</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Steam</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Steam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Cooling</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Cooling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.1 Purchased Goods And Srvs</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.1 - Purchased Goods and Services</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.2 Capital Goods</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.2 - Capital Goods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.3 Fuel And Engy Rel Activts</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.3 - Fuel- and Energy-related Activities Not Included in Scope 1 or 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.4 Upstream Transp And Distr</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.4 - Upstream Transportation and Distribution</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.5 Waste Generated In Ops</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.5 - Waste Generated in Operations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.6 Business Travel</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.6 - Business Travel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.7 Employee Commuting</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.7 - Employee Commuting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.8 Upstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.8 - Upstream Leased Assets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.9 Downstream Transp And Dis</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.9 - Downstream Transportation and Distribution</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.10 Processing Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.10 Processing of Sold Products</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.11 Use Of Sold Products</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.11 - Use Of Sold Products</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.12 EoL Treatm Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.12 - End-of-Life Treatment of Sold Products</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.13 Downstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.13 - Downstream Leased Assets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.14 Franchises</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.14 - Franchises</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">#PREFIX# S3.15 Investments</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.15 - Investments</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>15</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
