@@ -20,15 +20,19 @@ Which of the examples work may vary. It is recommended to use the latest availab
 
 ## Content
 
+You can download the content by choosing the option *Download ZIP* from the *<> Code* drop downbutton.
+
 ### Greenhouse Gas Management
 
-#### Standard Classifiers
+#### Data Classifiers for Greenhouse Gas Management
 
-SAP recommends standard data classifiers for the management of greenhouse gas emissions. You can find CSV files for import into your SAP EHS system in this directory:
+It is recommended to use the standard data classifiers for your Compliance Scenario activities.
 
-&rarr; [greenhouse-gas-management/classifiers](./greenhouse-gas-management/classifiers/)
+&rarr; [greenhouse-gas-management/classifiers/Standard Data Classifiers.xml](./greenhouse-gas-management/classifiers/Standard%20Data%20Classifiers.xml)
 
-Please use the "EHS - Data Classifier" migration object to import the classifiers using the Migration Cockpit for SAP S/4HANA
+You can use the *EHS - Data Classifier* migration object to import the classifiers with the [SAP S/4HANA Migration Cockpit](https://www.sap.com/documents/2017/07/26113ac0-c47c-0010-82c7-eda71af511fa.html).
+
+Please find further information on how to use the data classifiers in the blog post "[Manage Your Greenhouse Gas (GHG) Emission Inventory with SAP EHS Environment Management](https://blogs.sap.com/2023/06/23/manage-your-greenhouse-gas-ghg-emission-inventory-with-sap-ehs-environment-management/)".
 
 ## Mappings
 

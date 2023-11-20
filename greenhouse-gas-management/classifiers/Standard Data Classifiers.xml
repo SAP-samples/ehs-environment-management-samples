@@ -10,9 +10,9 @@
   <Title>EHS_AGGRCL</Title>
   <Author>SCHMIDTB</Author>
   <Keywords>Standard Scope</Keywords>
-  <LastAuthor>Schmidt, Benjamin</LastAuthor>
+  <LastAuthor>Klinger, Uwe</LastAuthor>
   <Created>2023-07-25T00:00:00Z</Created>
-  <LastSaved>2023-10-11T07:05:23Z</LastSaved>
+  <LastSaved>2023-11-20T11:17:32Z</LastSaved>
   <Company>SCHMIDTB</Company>
   <Version>16.00</Version>
  </DocumentProperties>
@@ -32,12 +32,11 @@
   </Colors>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>16740</WindowHeight>
-  <WindowWidth>27840</WindowWidth>
-  <WindowTopX>6760</WindowTopX>
-  <WindowTopY>4400</WindowTopY>
+  <WindowHeight>16940</WindowHeight>
+  <WindowWidth>27640</WindowWidth>
+  <WindowTopX>3660</WindowTopX>
+  <WindowTopY>2660</WindowTopY>
   <ActiveSheet>3</ActiveSheet>
-  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -50,7 +49,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223903184">
+  <Style ss:ID="m105553176943936">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -63,7 +62,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223903204">
+  <Style ss:ID="m105553176943956">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -76,7 +75,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223936428">
+  <Style ss:ID="m105553176939420">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -89,7 +88,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223936448">
+  <Style ss:ID="m105553176939440">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -102,7 +101,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223936468">
+  <Style ss:ID="m105553176939460">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -115,7 +114,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="m105553223907404">
+  <Style ss:ID="m105553176950444">
    <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -760,11 +759,11 @@
     <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553223936428"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553176939420"><Data
       ss:Type="String">Header Data (mandatory)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="m105553223936448"/>
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="m105553176939440"/>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
@@ -785,12 +784,12 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">CLASSIFIER</Data></Cell>
    </Row>
    <Row ss:Index="9" ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553223936468"><Data
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553176939460"><Data
       ss:Type="String">Classifier Text</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553223903184"/>
-    <Cell ss:MergeDown="1" ss:StyleID="m105553223903204"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:Index="2" ss:MergeDown="2" ss:StyleID="m105553176943936"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553176943956"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Data Classifier (ext. ID)</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
@@ -890,127 +889,127 @@
     <Cell ss:StyleID="s101"><Data ss:Type="String">Classifier*&#10;&#10;Specifies the name of the data classifier.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 1</Data></Cell>
     <Cell><Data ss:Type="String">Scope 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Location-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Location-based</Data></Cell>
     <Cell><Data ss:Type="String">Scope 2 Location-based</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Market-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Market-based</Data></Cell>
     <Cell><Data ss:Type="String">Scope 2 Market-based</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 3</Data></Cell>
     <Cell><Data ss:Type="String">Scope 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 1</Data></Cell>
     <Cell><Data ss:Type="String">Offsets - Scope 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 2</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 2</Data></Cell>
     <Cell><Data ss:Type="String">Offsets - Scope 2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 3</Data></Cell>
     <Cell><Data ss:Type="String">Offsets - Scope 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Biogenic</Data></Cell>
+    <Cell><Data ss:Type="String">Biogenic</Data></Cell>
     <Cell><Data ss:Type="String">Biogenic</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Stationary Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Stationary Combustion</Data></Cell>
     <Cell><Data ss:Type="String">S1 Stationary Combustion</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Mobile Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Mobile Combustion</Data></Cell>
     <Cell><Data ss:Type="String">S1 Mobile Combustion</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Fugitive Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Fugitive Emissions</Data></Cell>
     <Cell><Data ss:Type="String">S1 Fugitive Emissions</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Process Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Process Emissions</Data></Cell>
     <Cell><Data ss:Type="String">S1 Process Emissions</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Electricity</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Electricity</Data></Cell>
     <Cell><Data ss:Type="String">S2 Purchased Electricity</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Heating</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Heating</Data></Cell>
     <Cell><Data ss:Type="String">S2 Purchased Heating</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Steam</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Steam</Data></Cell>
     <Cell><Data ss:Type="String">S2 Purchased Steam</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Cooling</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Cooling</Data></Cell>
     <Cell><Data ss:Type="String">S2 Purchased Cooling</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.1 Purchased Goods And Srvs</Data></Cell>
+    <Cell><Data ss:Type="String">S3.1 Purchased Goods And Srvs</Data></Cell>
     <Cell><Data ss:Type="String">S3.1 Purchased Goods And Srvs</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.2 Capital Goods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.2 Capital Goods</Data></Cell>
     <Cell><Data ss:Type="String">S3.2 Capital Goods</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.3 Fuel And Engy Rel Activts</Data></Cell>
+    <Cell><Data ss:Type="String">S3.3 Fuel And Engy Rel Activts</Data></Cell>
     <Cell><Data ss:Type="String">S3.3 Fuel And Engy Rel Activts</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.4 Upstream Transp And Distr</Data></Cell>
+    <Cell><Data ss:Type="String">S3.4 Upstream Transp And Distr</Data></Cell>
     <Cell><Data ss:Type="String">S3.4 Upstream Transp And Distr</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.5 Waste Generated In Ops</Data></Cell>
+    <Cell><Data ss:Type="String">S3.5 Waste Generated In Ops</Data></Cell>
     <Cell><Data ss:Type="String">S3.5 Waste Generated In Ops</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.6 Business Travel</Data></Cell>
+    <Cell><Data ss:Type="String">S3.6 Business Travel</Data></Cell>
     <Cell><Data ss:Type="String">S3.6 Business Travel</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.7 Employee Commuting</Data></Cell>
+    <Cell><Data ss:Type="String">S3.7 Employee Commuting</Data></Cell>
     <Cell><Data ss:Type="String">S3.7 Employee Commuting</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.8 Upstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.8 Upstream Leased Assets</Data></Cell>
     <Cell><Data ss:Type="String">S3.8 Upstream Leased Assets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.9 Downstream Transp And Dis</Data></Cell>
+    <Cell><Data ss:Type="String">S3.9 Downstream Transp And Dis</Data></Cell>
     <Cell><Data ss:Type="String">S3.9 Downstream Transp And Dis</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.10 Processing Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.10 Processing Of Sold Prods</Data></Cell>
     <Cell><Data ss:Type="String">S3.10 Processing Of Sold Prods</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.11 Use Of Sold Products</Data></Cell>
+    <Cell><Data ss:Type="String">S3.11 Use Of Sold Products</Data></Cell>
     <Cell><Data ss:Type="String">S3.11 Use Of Sold Products</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.12 EoL Treatm Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.12 EoL Treatm Of Sold Prods</Data></Cell>
     <Cell><Data ss:Type="String">S3.12 EoL Treatm Of Sold Prods</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.13 Downstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.13 Downstream Leased Assets</Data></Cell>
     <Cell><Data ss:Type="String">S3.13 Downstream Leased Assets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.14 Franchises</Data></Cell>
+    <Cell><Data ss:Type="String">S3.14 Franchises</Data></Cell>
     <Cell><Data ss:Type="String">S3.14 Franchises</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.15 Investments</Data></Cell>
+    <Cell><Data ss:Type="String">S3.15 Investments</Data></Cell>
     <Cell><Data ss:Type="String">S3.15 Investments</Data></Cell>
    </Row>
   </Table>
@@ -1031,7 +1030,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
-   <TopRowBottomPane>8</TopRowBottomPane>
+   <TopRowBottomPane>9</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -1044,9 +1043,12 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>8</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>0</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -1087,7 +1089,7 @@
     <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:MergeAcross="1" ss:StyleID="m105553223907404"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553176950444"><Data ss:Type="String">Key</Data></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">Classifier Text Data</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1096,157 +1098,157 @@
     <Cell ss:StyleID="s101"><Data ss:Type="String">Text*&#10;&#10;Specifies the description of the data classifier in the defined language.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 1</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Location-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Location-based</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 Location-based</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 2 Market-based</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 2 Market-based</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 Market-based</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Scope 3</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 1</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 1</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Offsets for Scope 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 2</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 2</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Offsets for Scope 2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Offsets - Scope 3</Data></Cell>
+    <Cell><Data ss:Type="String">Offsets - Scope 3</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Offsets for Scope 3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# Biogenic</Data></Cell>
+    <Cell><Data ss:Type="String">Biogenic</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Biogenic</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Stationary Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Stationary Combustion</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 1 - Stationary Combustion</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Mobile Combustion</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Mobile Combustion</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 1 - Mobile Combustion</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Fugitive Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Fugitive Emissions</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 1 - Fugitive Emissions</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S1 Process Emissions</Data></Cell>
+    <Cell><Data ss:Type="String">S1 Process Emissions</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 1 - Process Emissions</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Electricity</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Electricity</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Electricity</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Heating</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Heating</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Heating</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Steam</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Steam</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Steam</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S2 Purchased Cooling</Data></Cell>
+    <Cell><Data ss:Type="String">S2 Purchased Cooling</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 2 - Purchased Cooling</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.1 Purchased Goods And Srvs</Data></Cell>
+    <Cell><Data ss:Type="String">S3.1 Purchased Goods And Srvs</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.1 - Purchased Goods and Services</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.2 Capital Goods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.2 Capital Goods</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.2 - Capital Goods</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.3 Fuel And Engy Rel Activts</Data></Cell>
+    <Cell><Data ss:Type="String">S3.3 Fuel And Engy Rel Activts</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.3 - Fuel- and Energy-related Activities Not Included in Scope 1 or 2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.4 Upstream Transp And Distr</Data></Cell>
+    <Cell><Data ss:Type="String">S3.4 Upstream Transp And Distr</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.4 - Upstream Transportation and Distribution</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.5 Waste Generated In Ops</Data></Cell>
+    <Cell><Data ss:Type="String">S3.5 Waste Generated In Ops</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.5 - Waste Generated in Operations</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.6 Business Travel</Data></Cell>
+    <Cell><Data ss:Type="String">S3.6 Business Travel</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.6 - Business Travel</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.7 Employee Commuting</Data></Cell>
+    <Cell><Data ss:Type="String">S3.7 Employee Commuting</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.7 - Employee Commuting</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.8 Upstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.8 Upstream Leased Assets</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.8 - Upstream Leased Assets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.9 Downstream Transp And Dis</Data></Cell>
+    <Cell><Data ss:Type="String">S3.9 Downstream Transp And Dis</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.9 - Downstream Transportation and Distribution</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.10 Processing Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.10 Processing Of Sold Prods</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
-    <Cell><Data ss:Type="String">GHG Scope 3.10 Processing of Sold Products</Data></Cell>
+    <Cell><Data ss:Type="String">GHG Scope 3.10 - Processing of Sold Products</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.11 Use Of Sold Products</Data></Cell>
+    <Cell><Data ss:Type="String">S3.11 Use Of Sold Products</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.11 - Use Of Sold Products</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.12 EoL Treatm Of Sold Prods</Data></Cell>
+    <Cell><Data ss:Type="String">S3.12 EoL Treatm Of Sold Prods</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.12 - End-of-Life Treatment of Sold Products</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.13 Downstream Leased Assets</Data></Cell>
+    <Cell><Data ss:Type="String">S3.13 Downstream Leased Assets</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.13 - Downstream Leased Assets</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.14 Franchises</Data></Cell>
+    <Cell><Data ss:Type="String">S3.14 Franchises</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.14 - Franchises</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#PREFIX# S3.15 Investments</Data></Cell>
+    <Cell><Data ss:Type="String">S3.15 Investments</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">GHG Scope 3.15 - Investments</Data></Cell>
    </Row>
@@ -1269,7 +1271,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>8</SplitHorizontal>
-   <TopRowBottomPane>8</TopRowBottomPane>
+   <TopRowBottomPane>10</TopRowBottomPane>
    <SplitVertical>2</SplitVertical>
    <LeftColumnRightPane>2</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -1282,10 +1284,11 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>8</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>15</ActiveRow>
+     <ActiveRow>27</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
