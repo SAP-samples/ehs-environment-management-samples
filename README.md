@@ -34,6 +34,10 @@ You can use the *EHS - Data Classifier* migration object to import the classifie
 
 Please find further information on how to use the data classifiers in the blog post "[Manage Your Greenhouse Gas (GHG) Emission Inventory with SAP EHS Environment Management](https://blogs.sap.com/2023/06/23/manage-your-greenhouse-gas-ghg-emission-inventory-with-sap-ehs-environment-management/)".
 
+### Example Locations
+
+There is an example location hierarchy in the folder [locations](./locations/)
+
 ## Mappings
 
 You can find mappings for domain values for the use with the Migration Cockpit for SAP S/4HANA to reduce the mapping effort and to show which values are allowed for a field.

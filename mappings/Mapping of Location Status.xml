@@ -7,16 +7,17 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Title>MAP_LOC_TYPE</Title>
+  <Title>MAP_LOC_STATUS</Title>
   <Author>CB9980003254</Author>
-  <Keywords>MAP_LOC_TYPE</Keywords>
-  <LastAuthor>CB9980003254</LastAuthor>
-  <Created>2024-01-08T00:00:00Z</Created>
+  <Keywords>MAP_LOC_STATUS</Keywords>
+  <LastAuthor>Klinger, Uwe</LastAuthor>
+  <Created>2024-01-03T00:00:00Z</Created>
+  <LastSaved>2024-01-03T11:09:52Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Object_Id dt:dt="string"></Object_Id>
-  <Object_name dt:dt="string">MAP_LOC_TYPE</Object_name>
+  <Object_name dt:dt="string">MAP_LOC_STATUS</Object_name>
   <Version dt:dt="string"></Version>
   <System dt:dt="string">CC3</System>
   <Language dt:dt="string">E</Language>
@@ -163,7 +164,7 @@
     <Cell ss:StyleID="s68"><Data ss:Type="String">Decimals</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">IV_LOC_TYPE</Data></Cell>
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">IV_LOC_STATUS</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Import Parameter</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
@@ -172,12 +173,12 @@
     <Cell ss:StyleID="s70"><Data ss:Type="String"></Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">EV_LOC_TYPE</Data></Cell>
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">EV_LOC_STATUS</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Export Parameter</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">CHAR</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="String"></Data></Cell>
    </Row>
   </Table>
@@ -218,12 +219,12 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Data" ss:Protected="1">
-  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="13" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s71" ss:Width="80" ss:Span="1"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell ss:MergeAcross="14"><Data ss:Type="String">Mapping Values For: Mapping of Location Type ( MAP_LOC_TYPE )</Data></Cell>
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Mapping Values For: Mapping of Location Status ( MAP_LOC_STATUS )</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell ss:MergeAcross="2"><Data ss:Type="String"> © Copyright SAP SE. All rights reserved.</Data></Cell>
@@ -232,44 +233,24 @@
     <Cell ss:MergeAcross="2" ss:StyleID="s62"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s72"><Data ss:Type="String">IV_LOC_TYPE</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">EV_LOC_TYPE</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">IV_LOC_STATUS</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">EV_LOC_STATUS</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Building</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_BLDNG</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell><Data ss:Type="String">01</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Business Unit</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_BU</Data></Cell>
+    <Cell><Data ss:Type="String">Active</Data></Cell>
+    <Cell><Data ss:Type="String">02</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Company</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_CO</Data></Cell>
+    <Cell><Data ss:Type="String">Inactive</Data></Cell>
+    <Cell><Data ss:Type="String">03</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Equipment</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_EQ</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Plant</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_PLNT</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Production Unit</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_PU</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Site</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_SI</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Storage Location</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_SL</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Work Center</Data></Cell>
-    <Cell><Data ss:Type="String">EHFND_LTY_WC</Data></Cell>
+    <Cell><Data ss:Type="String">Historic</Data></Cell>
+    <Cell><Data ss:Type="String">04</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -298,7 +279,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <RangeSelection>R5C1:R13C2</RangeSelection>
+     <ActiveRow>5</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

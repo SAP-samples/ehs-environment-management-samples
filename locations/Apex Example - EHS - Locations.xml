@@ -1,0 +1,2645 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>EHS_LOCATION</Title>
+  <Author>CB9980003254</Author>
+  <Keywords>Standard Scope</Keywords>
+  <LastAuthor>Klinger, Uwe</LastAuthor>
+  <Created>2024-01-03T00:00:00Z</Created>
+  <LastSaved>2024-01-03T10:39:34Z</LastSaved>
+  <Company>CB9980003254</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <APPLICATION dt:dt="string">SLO</APPLICATION>
+  <OBJECT_NAME dt:dt="string">EHS - Location</OBJECT_NAME>
+  <VERSION dt:dt="string">SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024</VERSION>
+  <SYSTEM dt:dt="string">CC3 / 715</SYSTEM>
+  <LANGUAGE dt:dt="string">E</LANGUAGE>
+  <IS_S4H_CLOUD dt:dt="string">X</IS_S4H_CLOUD>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>15</Index>
+    <RGB>#BFBFBF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>26100</WindowHeight>
+  <WindowWidth>31140</WindowWidth>
+  <WindowTopX>23580</WindowTopX>
+  <WindowTopY>2920</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138929104">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138929124">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138929144">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923120">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923140">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923160">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923180">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923200">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923220">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138923240">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909184">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909204">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909224">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909244">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909264">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909284">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909304">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138909324">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924428">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#F0AB00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924448">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924468">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924488">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924508">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924528">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138924548">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138604812">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138604832">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138604852">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138604872">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138604892">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553139052380">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553139052400">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138594876">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138594896">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138708940">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553138708960">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553139047388">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m105553139045724">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="20" ss:Color="#FFFFFF"
+    ss:Bold="1" ss:Italic="1"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BFBFBF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#427CAC" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#F0AB00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#F0AB00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="dd\.mm\.yyyy"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.000000000000"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.000"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#EFF4F9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s113">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#F0AB00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0.0000000000000000"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s115">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.000000000000"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Fields" ss:RefersTo="='Field List'!R1C1"/>
+  <NamedRange ss:Name="Instructions" ss:RefersTo="=Introduction!R1C1"/>
+ </Names>
+ <Worksheet ss:Name="Introduction" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="83" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="20"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="20"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="671"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Introduction to Data Migration Templates</Data><NamedCell
+      ss:Name="Instructions"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:MergeAcross="4"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Overview </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">A migration template (Microsoft Excel XML Spreadsheet 2003 file) consists of different sheets which are visible at the bottom of the migration template. You use the different sheets to specify the data that belongs to different data structures. For example the migration template for the migration object 'Product', contains a sheet for basic data, a sheet for plant data, and so on. Some sheets are mandatory, and some are optional. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s73"><Data ss:Type="String">A migration template is based on the active view of the relevant migration object. You can find information about the active view in the Microsoft Excel XML file. In the file, navigate to File -&gt; Info. You can find the active view name under Properties -&gt; Tags. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Prerequisites </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In the Microsoft Excel XML Spreadsheet 2003 file, navigate to 'File' -&gt; 'Options' -&gt; 'Advanced'. Under the option 'When calculating this workbook:', ensure that the option 'Set precision as displayed' is selected. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Information about File Sizes </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">SAP S/4HANA Cloud </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you are migrating data to SAP S/4HANA Cloud, the default size limit for each uploaded XML file is 100MB.  If required, you can zip several files together. Note that the combined size of all the XML files you want to add to the zip file must not exceed 160MB.  The limit for zip file is still 100MB. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">SAP S/4HANA On-Premise </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you are migrating data to SAP S/4HANA, the default size limit for each uploaded XML file is 100MB. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can increase the size limit for each uploaded XML file to 160MB by changing the system parameter (icm/HTTP/max_request_size_KB). If required, you can zip several files together. Note that the combined size of all the XML files you want to add to the zip file must not exceed 160MB. The limit for the zip file is still 160 MB with the adjusted system parameter. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">The Field List Sheet </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">The 'Field List' sheet is one of the first sheets in the migration template. You use this sheet to get an overview of the expected data in one central location. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">It contains information about the mandatory and optional sheets, as well as detailed information for each sheet (for example the expected data type and length for the fields in each sheet). </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">On the 'Field List' sheet, you can view the following information for each field in the migration template: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The name of the sheet, and whether it is mandatory or optional. Only mandatory sheets have the suffix 'Mandatory', for example 'Basic Data (Mandatory)'. All other sheets are optional. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can quickly get an overview of the mandatory and optional sheets by looking at the color of the sheet names at the bottom of the migration template. The name of the mandatory sheets have the color orange, while the optional sheets have the color blue. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The group name for the fields in a sheet. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The individual fields in each sheet, as well as whether fields are mandatory for a sheet. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Information about the expected format of the individual fields, for example the data type and length. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In the field list sheet, certain technical information about the fields is hidden by default. The columns 'SAP Structure' and 'SAP Field' (columns 8 and 9) are hidden by default. The column 'SAP Structure' is the technical name of the structure that the field belongs to. The column 'SAP Field' is the technical name of the field. To unhide these columns, select the columns adjacent to either side of the columns that you want to unhide. Right-click your selection, and choose 'Unhide'. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">If you want to extract data from SAP ERP, the technical name of structure and the technical name of the field often corresponds to the SAP ERP table name and field name. Also, the SAP Release Note (2568909) for SAP S/4HANA Cloud data migration content uses the technical names of the structures and fields. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Working with Sheets </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">For each migration template, you need to specify data for the mandatory sheets, and for the optional sheets that are relevant for your project: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Mandatory sheets (orange) </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Mandatory sheets represent the minimum set of data you must provide for data migration. Fill in all mandatory fields. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Optional sheets (blue) </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Use optional sheets depending on your migration scope and available legacy data. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Viewing Additional Information for Each Column </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">In row 8, you can view the field names in SAP S/4HANA, as well as additional information such as the expected format (for example the data type and length). Note that you must expand the row to view this additional information. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Some fields are mandatory, and some are optional. The wildcard character (‘*’) beside the name of a field indicates that the field is mandatory. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Although an optional sheet may contain mandatory columns, if the sheet is not relevant for your project, there is no need to fill the mandatory columns in the sheet with data. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Rows 4, 5, and 6 are hidden by default. Row 4 is the technical name of the structure (corresponds to the sheet name). Row 5 is the technical name of the field (corresponds to row 8 - the field description). Row 6 contains technical information such as the data type and length. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">To unhide these rows, select the rows adjacent to either side of the rows that you want to unhide. Right-click your selection, and choose 'Unhide'. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Working with Different Data Types </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">You can view the data type for a field in row 8 (see 'Viewing Additional Information for Each Column' above). Depending on the field, one of the following data types may be required: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Text </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Letters, numbers, and special characters are permitted. In the SAP S/4HANA migration cockpit, you can map the values of certain fields with the data type text (usually those fields with Length: 80) to their correct SAP S/4HANA target values. You can do this value mapping in the SAP S/4HANA migration cockpit when you start the transfer (in the step 'Convert Values'). </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter numbers with decimals in the relevant country-specific format, for example 12.34 (United States) or 12,34 (Germany). For fields with decimals, the declared length includes decimals (if required), for example if the information for the column states:  Length: 8, Decimals: 3, then a number such as 12345.678 is permitted. Note that decimal places are not mandatory. In this example, you can specify a whole number up to length 8 without decimal places, for example ‘1’. This number would be set to ‘1.000’ internally. For negative numbers, ensure that a minus sign ('-') directly precedes the number, for example '-100'. Note that currencies with more than 3 decimal places are not supported. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note that the maximum field length supported by Microsoft Excel is 15 digits (including decimals). If you have longer numbers, use the option for transferring data to S/4HANA using staging tables. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Date </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter the date in your country-specific format, for example 12/31/1998 (United States) or 31.12.1998 (Germany). Note that Microsoft Excel automatically recognizes different date formats and transforms them automatically to the correct XML format. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Time </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Enter the time in the format HH:MM:SS, for example 02:52:40 </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Copying Data to a Sheet </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">When copying data to a sheet from Microsoft Excel, always right-click the relevant cell and choose the paste option 'Values (V)'. Avoid pasting data that includes formatting and formulas into the migration template, as this will corrupt the structure of the XML migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Using the Find and Replace Function </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Do not use the Microsoft Excel function 'Find and Replace'. If you change data by using this function, you may also unintentionally change the field names and corrupt the structure of the XML migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Saving the Migration Template </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Ensure that you only save the migration template as a Microsoft Excel XML Spreadsheet 2003 file. Other file types are not supported by the SAP S/4HANA migration cockpit. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s70"><Data ss:Type="String">Important Information </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Do not make any changes to the structure of the migration template, specifically: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not delete, rename or change the order of any sheet in the migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not change the formatting of any cells. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not use formulas. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">•</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Do not hide, remove, or change the order of any of the columns in the migration template. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Note: </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Any changes to the sheets will result in a corrupted XML structure. Such modified migration templates are not supported by the SAP S/4HANA migration cockpit. </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <FitHeight>99</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>9</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Field List" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="61" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="67"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="172"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="83"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="56" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="56" ss:Span="1"/>
+   <Column ss:Index="11" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Field List for Migration Object: EHS - Location</Data><NamedCell
+      ss:Name="Fields"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="8"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s74">
+    <Cell ss:Index="2" ss:MergeAcross="6"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Sheet Name</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Group Name</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Field Description</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Importance</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Length</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Decimal</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Structure</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">SAP Field</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138924428"><Data
+      ss:Type="String">Location Revision (mandatory)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="24" ss:StyleID="m105553138924448"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553138924468"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Location Revision Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="4" ss:StyleID="m105553138924488"><Data
+      ss:Type="String">General Information</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Default Language</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LANGUAGE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">NAME</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">TYPE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">STATUS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">unrestricted</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">DESC_TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553138924508"><Data
+      ss:Type="String">Location Revision</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Revision Name</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">REVISION_DESCR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Revision Start Date</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">SPLIT_DATE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553138924528"><Data
+      ss:Type="String">Organizational Information</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Plant ID</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PLANT_ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Company Code</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">COMPANY_CODE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Cost Center</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">COST_CENTER</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="12" ss:StyleID="m105553138924548"><Data
+      ss:Type="String">Location Address</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Address Name Line 1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">40    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">NAME1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Address Name Line 2</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">40    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">NAME2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Street</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">STREET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Postal Code</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">10    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">POST_CODE1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">40    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CITY1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Country/Region</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">COUNTRY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Region</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">REGION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Time Zone</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">TIME_ZONE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Phone Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">30    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PHONE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Fax Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">30    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">FAX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Latitude</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">15    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">12    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LATITUDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Longitude</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">15    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">12    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LONGITUTE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Elevation</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">9     </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">3     </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ELEVATION</Data></Cell>
+   </Row>
+   <Row ss:Index="32" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138909184"><Data
+      ss:Type="String">Location Revision Texts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="4" ss:StyleID="m105553138909204"/>
+    <Cell ss:MergeDown="2" ss:StyleID="m105553138909224"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Location Revision Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Language</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LANGUAGE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553138909244"><Data
+      ss:Type="String">General Information</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LOC_NAME</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">unrestricted</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LOC_DESC_TEXT</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138909264"><Data
+      ss:Type="String">Persons Responsible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="5" ss:StyleID="m105553138909284"/>
+    <Cell ss:MergeDown="2" ss:StyleID="m105553138909304"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Location Revision Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Person Responsible Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PERSON_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="2" ss:StyleID="m105553138909324"><Data
+      ss:Type="String">Persons Responsible</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Person Responsible ID</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">13    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PERSON_ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Person Responsible Full Name</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PERSON_FULL_NAME</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Person Responsible Role</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROLE</Data></Cell>
+   </Row>
+   <Row ss:Index="47" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138923120"><Data
+      ss:Type="String">Location Property</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="3" ss:StyleID="m105553138923140"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553138923160"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Chemical/Physical Property ID</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PROPERTY_ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeDown="1" ss:StyleID="m105553138923180"><Data
+      ss:Type="String">Location Property</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Property Value</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">16    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">16    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">VALUE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Unit of Measure</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">UNIT</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138923200"><Data
+      ss:Type="String">Location Property - Comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="3" ss:StyleID="m105553138923220"/>
+    <Cell ss:MergeDown="2" ss:StyleID="m105553138923240"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Chemical/Physical Property ID</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PROPERTY_ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Language</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">LANGUAGE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s84"><Data ss:Type="String">Property Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Property Comment</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">unrestricted</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_PROPERTY_TEXT</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PROPERTY_TEXT</Data></Cell>
+   </Row>
+   <Row ss:Index="59" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeAcross="8" ss:StyleID="m105553138929104"><Data
+      ss:Type="String">Classifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="m105553138929124"/>
+    <Cell ss:MergeDown="1" ss:StyleID="m105553138929144"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Location Key</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">80    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_CLASSIFIER</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ROOT_KEY</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s84"><Data ss:Type="String">Classifier (Ext. ID)</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">mandatory for sheet</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">60    </Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">S_CLASSIFIER</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CLASSIFIER_ID</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <FitHeight>99</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>9</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>4</SplitHorizontal>
+   <TopRowBottomPane>4</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Location Revision" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="5"/>
+   <Column ss:Index="7" ss:StyleID="s100" ss:Width="120" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s101" ss:Width="120"/>
+   <Column ss:StyleID="s100" ss:Width="120" ss:Span="12"/>
+   <Column ss:Index="23" ss:StyleID="s102" ss:Width="120"/>
+   <Column ss:StyleID="s102" ss:Width="172"/>
+   <Column ss:StyleID="s103" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_LOCATION</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">LANGUAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESC_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">REVISION_DESCR</Data></Cell>
+    <Cell><Data ss:Type="String">SPLIT_DATE</Data></Cell>
+    <Cell><Data ss:Type="String">PLANT_ID</Data></Cell>
+    <Cell><Data ss:Type="String">COMPANY_CODE</Data></Cell>
+    <Cell><Data ss:Type="String">COST_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME2</Data></Cell>
+    <Cell><Data ss:Type="String">STREET</Data></Cell>
+    <Cell><Data ss:Type="String">POST_CODE1</Data></Cell>
+    <Cell><Data ss:Type="String">CITY1</Data></Cell>
+    <Cell><Data ss:Type="String">COUNTRY</Data></Cell>
+    <Cell><Data ss:Type="String">REGION</Data></Cell>
+    <Cell><Data ss:Type="String">TIME_ZONE</Data></Cell>
+    <Cell><Data ss:Type="String">PHONE</Data></Cell>
+    <Cell><Data ss:Type="String">FAX</Data></Cell>
+    <Cell><Data ss:Type="String">LATITUDE</Data></Cell>
+    <Cell><Data ss:Type="String">LONGITUTE</Data></Cell>
+    <Cell><Data ss:Type="String">ELEVATION</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">EDA;8;0;D;8;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;40;0;C;40;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;40;0;C;40;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;10;0;C;10;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;40;0;C;40;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;30;0;C;30;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;30;0;C;30;0</Data></Cell>
+    <Cell><Data ss:Type="String">ENU;15;12;P;15;12</Data></Cell>
+    <Cell><Data ss:Type="String">ENU;15;12;P;15;12</Data></Cell>
+    <Cell><Data ss:Type="String">ENU;9;3;P;9;3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553138604812"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="m105553138604832"><Data ss:Type="String">General Information</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553138604852"><Data ss:Type="String">Location Revision</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553138604872"><Data ss:Type="String">Organizational Information</Data></Cell>
+    <Cell ss:MergeAcross="12" ss:StyleID="m105553138604892"><Data ss:Type="String">Location Address</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="144">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Revision Key*&#10;&#10;User-defined key that identifies the location revision.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Default Language*&#10;&#10;A code that represents the language in which the description is written.&#10;&#10;Note: Enter the two-letter language code according to ISO 639-1, for example, enter &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Name*&#10;&#10;Specifies the name of the location.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Type*&#10;&#10;Specifies the type of the&#160;location.&#10;Examples of a location are a plant, a piece of equipment, or a work area.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Status*&#10;&#10;Specifies the status of the location. A location can have one of the following statuses:&#10;&quot;01&quot; = New&#10;&quot;02&quot; = Active&#10;&quot;03&quot; = Inactive&#10;&quot;04&quot; = Historic&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Description&#10;&#10;Specifies the description of the location.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Revision Name&#10;&#10;Specifies the name of the location hierarchy revision.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Revision Start Date*&#10;&#10;Specifies the date from which the revision of the location hierarchy applies.&#10;&#10;Type: Date</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Plant ID&#10;&#10;Specifies the Plant ID as part of the organizational information of a location.&#10;&#10;The plant ID refers to a plant in the Plant Maintenance (PM) component. The plant must exist in the local system.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Company Code&#10;&#10;Company code as part of the organizational information.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Cost Center&#10;&#10;Cost center as part of the organizational information.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Address Name Line 1&#10;&#10;Specifies an address description.&#10;&#10;Type: Text&#10;Length: 40</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Address Name Line 2&#10;&#10;Specifies an additional address description.&#10;&#10;Type: Text&#10;Length: 40</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Street&#10;&#10;Street name as part of the address.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Postal Code&#10;&#10;Postal code as part of the address.&#10;&#10;&#10;Type: Text&#10;Length: 10</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">City&#10;&#10;City name as part of the address.&#10;&#10;Type: Text&#10;Length: 40</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Country/Region&#10;&#10;Country/Region as part of the address.&#10;&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Region&#10;&#10;In some countries/regions, the region forms part of the address. The meaning depends on the country/region.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Time Zone&#10;&#10;Time zone as part of the address.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Phone Number&#10;&#10;Phone number as part of the address.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Fax Number&#10;&#10;Fax number as part of the address.&#10;&#10;Type: Text&#10;Length: 30</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Latitude&#10;&#10;You can use this master data to identify the exact position of a location. If you have integrated a map into the Environment, Health, and Safety component, you can use this data to visualize the location's position on the map.&#10;&#10;Type: Number&#10;Length: 15&#10;Decimal: 12</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Longitude&#10;&#10;You can use this master data to identify the exact position of a location. If you have integrated a map into the SAP Environment, Health, and Safety component, you can use this data to visualize the location's position on the map.&#10;&#10;Type: Number&#10;Length: 15&#10;Decimal: 12</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Elevation&#10;&#10;You can use this master data to identify the exact position of a location. If you have integrated a map into the Environment, Health, and Safety component, you can use this data to visualize the location's position on the map.&#10;&#10;Type: Number&#10;Length: 9&#10;Decimal: 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apex Industries</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Industries</Data></Cell>
+    <Cell><Data ss:Type="String">Company</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apex IT</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Apex IT</Data></Cell>
+    <Cell><Data ss:Type="String">Business Unit</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apex IT - DE</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Apex IT - DE</Data></Cell>
+    <Cell><Data ss:Type="String">Business Unit</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Berlin</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Berlin</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">10176</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">52.520007999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">13.404954</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Berlin Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Berlin Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frankfurt</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Frankfurt</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">60311</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">50.110923999999997</Data></Cell>
+    <Cell><Data ss:Type="Number">8.6821269999999995</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Frankfurt Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Frankfurt Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Munich</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Munich</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">80336</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">48.137154000000002</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="Number">11.576124</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Munich Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Munich Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">DE</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CET</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Apex IT - US</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Apex IT - US</Data></Cell>
+    <Cell><Data ss:Type="String">Business Unit</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">EST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boston</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Boston</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">02108</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell><Data ss:Type="String">MA</Data></Cell>
+    <Cell><Data ss:Type="String">EST</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">42.357587000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">-71.065927000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boston Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Boston Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">EST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Boston Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Boston Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">EST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Houston</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Houston</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">77001</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell><Data ss:Type="String">TX</Data></Cell>
+    <Cell><Data ss:Type="String">CST</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">29.749907</Data></Cell>
+    <Cell><Data ss:Type="Number">-95.358421000000007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Houston Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Houston Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Houston Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Houston Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">CST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">New York</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">New York</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">10001</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell><Data ss:Type="String">NY</Data></Cell>
+    <Cell><Data ss:Type="String">EST</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">40.712727999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">-74.006015000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">New York Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">New York Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">EST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palo Alto</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Palo Alto</Data></Cell>
+    <Cell><Data ss:Type="String">Site</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">94301</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell><Data ss:Type="String">CA</Data></Cell>
+    <Cell><Data ss:Type="String">PST</Data></Cell>
+    <Cell ss:Index="23"><Data ss:Type="Number">37.442686999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">-122.158188</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palo Alto Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Palo Alto Building 1</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">PST</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Palo Alto Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="String">EN</Data></Cell>
+    <Cell><Data ss:Type="String">Palo Alto Building 2</Data></Cell>
+    <Cell><Data ss:Type="String">Building</Data></Cell>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Initial</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2018-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">US</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">PST</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>51</TabColorIndex>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>15</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>30</ActiveRow>
+     <ActiveCol>17</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Location Revision Texts" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="2"/>
+   <Column ss:Index="4" ss:StyleID="s100" ss:Width="120" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_REVISION_TEXT</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">LANGUAGE</Data></Cell>
+    <Cell><Data ss:Type="String">LOC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">LOC_DESC_TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553139052380"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553139052400"><Data ss:Type="String">General Information</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Revision Key*&#10;&#10;User-defined key that identifies the location revision.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Language*&#10;&#10;A code that represents the language in which the description is written.&#10;&#10;Note: Enter the two-letter language code according to ISO 639-1, for example, enter &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Name&#10;&#10;Specifies the name of the location.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Description&#10;&#10;Specifies the description of the location.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>3</SplitVertical>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Persons Responsible" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="2"/>
+   <Column ss:Index="4" ss:StyleID="s100" ss:Width="120" ss:Span="1"/>
+   <Column ss:Index="6" ss:StyleID="s99" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_RESPONSIBLE</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">LOC_REV_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">PERSON_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">PERSON_ID</Data></Cell>
+    <Cell><Data ss:Type="String">PERSON_FULL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">ROLE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;13;0;C;13;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553138594876"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553138594896"><Data ss:Type="String">Persons Responsible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Revision Key*&#10;&#10;User-defined key that identifies the location revision.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Person Responsible Key*&#10;&#10;User-defined key that identifies the person responsible for the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Person Responsible ID&#10;&#10;Specifies the Business Partner ID of the person responsible for the location.&#10;&#10;Type: Text&#10;Length: 13</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Person Responsible Full Name&#10;&#10;Specifies the name of the person responsible.&#10;&#10;Enter the name in the format &lt;first name&gt; &lt;last name&gt;.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Person Responsible Role*&#10;&#10;Indicates the responsibility that a person has at a location, for example Incident Manager or Environmental Manager.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>3</SplitVertical>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Location Property" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="1"/>
+   <Column ss:Index="3" ss:StyleID="s113" ss:Width="120"/>
+   <Column ss:StyleID="s99" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_PROPERTY</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_ID</Data></Cell>
+    <Cell><Data ss:Type="String">VALUE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ENU;16;16;F;16;16</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553138708940"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553138708960"><Data ss:Type="String">Location Property</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Chemical/Physical Property ID*&#10;&#10;Specifies the External key of the EHS Chemical/Physical property&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Property Value*&#10;&#10;Specifies the value of the chemical/physical property that applies to a location.&#10;&#10;Type: Number&#10;Length: 16&#10;Decimal: 16</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Unit of Measure*&#10;&#10;Specifies the unit of measurement of a chemical/physical property that applies to a location (for example: bottles, pieces, kilograms, or hours).&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Location Property - Comment" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="3"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_PROPERTY_TEXT</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_ID</Data></Cell>
+    <Cell><Data ss:Type="String">LANGUAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;0;0;g;0;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="2" ss:StyleID="m105553139047388"><Data ss:Type="String">Key Fields</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Property Text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Chemical/Physical Property ID*&#10;&#10;Specifies the External key of the EHS Chemical/Physical property&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Language*&#10;&#10;A code that represents the language in which the description is written.&#10;&#10;Note: Enter the two-letter language code according to ISO 639-1, for example, enter &quot;EN&quot; for English.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Property Comment*&#10;&#10;Specifies the property text of the location in the defined language.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>3</SplitVertical>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Classifier" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s99" ss:Width="120" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Source Data for Migration Object:  EHS - Location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell ss:MergeAcross="14"><Data ss:Type="String">Version SAP S/4HANA CLOUD 2408 - Standard Scope - 01.03.2024 © Copyright SAP SE. All rights reserved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="14" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14" ss:Hidden="1">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">S_CLASSIFIER</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ROOT_KEY</Data></Cell>
+    <Cell><Data ss:Type="String">CLASSIFIER_ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell><Data ss:Type="String">ETE;80;0;C;80;0</Data></Cell>
+    <Cell><Data ss:Type="String">ETE;60;0;C;60;0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m105553139045724"><Data ss:Type="String">Key Fields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Location Key*&#10;&#10;User-defined key that identifies the location.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Classifier (Ext. ID)*&#10;&#10;Specifies the External key of the EHS Location Classifier.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>56</TabColorIndex>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>8</SplitHorizontal>
+   <TopRowBottomPane>8</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
