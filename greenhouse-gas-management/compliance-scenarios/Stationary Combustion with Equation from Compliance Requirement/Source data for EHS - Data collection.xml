@@ -1424,7 +1424,7 @@
     <Cell ss:StyleID="s108"><Data ss:Type="String">EHS Material ID&#10;&#10;Specifies the Migration External Key of the material object.&#10;Only one field from the Subject Group should be filled.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#BostonFacilitiesHeatingGas</Data></Cell>
+    <Cell><Data ss:Type="String">#2BostonFacilitiesHeatingGas</Data></Cell>
     <Cell><Data ss:Type="String">Manual</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Monthly</Data></Cell>
     <Cell><Data ss:Type="String">#Boston</Data></Cell>
@@ -1661,7 +1661,7 @@
     <Cell ss:StyleID="s108"><Data ss:Type="String">Last Schedule of Data Collection&#10;&#10;Specifies the last schedule code of the data collection.&#10;&#10;Set a schedule code by selecting from the following available schedule options:&#10;• Daily: 001&#10;• Monthly: 002&#10;• Yearly: 003&#10;• Hourly: 005&#10;• Quarterly: 007&#10;• Half-yearly: 008&#10;• No: 999&#10;&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#BostonFacilitiesHeatingGas</Data></Cell>
+    <Cell><Data ss:Type="String">#2BostonFacilitiesHeatingGas</Data></Cell>
     <Cell><Data ss:Type="DateTime">2023-01-01T00:00:00.000</Data></Cell>
     <Cell><Data ss:Type="DateTime">9999-12-31T00:00:00.000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
