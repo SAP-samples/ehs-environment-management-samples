@@ -2041,8 +2041,8 @@
     <Cell ss:StyleID="s113"><Data ss:Type="String">Deactivation Time Zone&#10;&#10;Specifies the time zone that is used upon the compliance scenario deactivation.&#10;&#10;Type: Text&#10;Length: 80</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#2BostonFacilitiesHeating</Data></Cell>
-    <Cell><Data ss:Type="String">#2BostonFH</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFacilitiesHeating</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFH</Data></Cell>
     <Cell><Data ss:Type="String">#Boston</Data></Cell>
     <Cell><Data ss:Type="String">Inactive</Data></Cell>
     <Cell><Data ss:Type="String">Initial Revision</Data></Cell>
@@ -2132,7 +2132,7 @@
     <Cell ss:StyleID="s113"><Data ss:Type="String">Title Text*&#10;&#10;Specifies a name of the compliance scenario.&#10;&#10;Type: Text&#10;Length: 60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#2BostonFacilitiesHeating</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFacilitiesHeating</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">Facilities Heating</Data></Cell>
    </Row>
@@ -2219,7 +2219,7 @@
     <Cell ss:StyleID="s113"><Data ss:Type="String">Description Text&#10;&#10;Specifies a description of the compliance scenario or details related to it.&#10;&#10;Type: Text&#10;Length: unrestricted</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#2BostonFacilitiesHeating</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFacilitiesHeating</Data></Cell>
     <Cell><Data ss:Type="String">EN</Data></Cell>
     <Cell><Data ss:Type="String">Calculation of CO2e based on stationary combustion of natural gas for heating of office facilities.</Data></Cell>
    </Row>
@@ -2389,8 +2389,8 @@
     <Cell ss:StyleID="s113"><Data ss:Type="String">Owner Indicator&#10;&#10;This indicator is used to identify the original compliance scenario where the activity was created.&#10;&#10;Enter &quot;X&quot; if this is the original compliance scenario of the activity.&#10;Leave this field empty if this is not the original compliance scenario of the activity.&#10;&#10;&#10;Type: Text&#10;Length: 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">#2BostonFacilitiesHeating</Data></Cell>
-    <Cell><Data ss:Type="String">#2BostonFacilitiesHeatingGas</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFacilitiesHeating</Data></Cell>
+    <Cell><Data ss:Type="String">#BostonFacilitiesHeatingGas</Data></Cell>
     <Cell><Data ss:Type="String">X</Data></Cell>
    </Row>
   </Table>
